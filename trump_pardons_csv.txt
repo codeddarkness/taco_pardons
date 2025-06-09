@@ -1,0 +1,286 @@
+Name,Date,Type,Category,Offense,Original_Sentence,Restitution_Amount,Political_Party,Court,Notes
+Stewart Rhodes,2025-01-20,Commutation,January 6,Seditious conspiracy; obstruction of official proceeding; tampering with documents,18 years,0,Republican,District of Columbia,Oath Keepers founder; sentence commuted to time served; immediately released
+Kelly Meggs,2025-01-20,Commutation,January 6,Seditious conspiracy; obstruction of official proceeding; conspiracy to obstruct; conspiracy to prevent officer from discharging duties; tampering with documents,12 years,0,Republican,District of Columbia,Oath Keepers member; sentence commuted to time served; immediately released
+Kenneth Harrelson,2025-01-20,Commutation,January 6,Obstruction of official proceeding; conspiracy to prevent officer from discharging duties; tampering with documents,4 years,0,Republican,District of Columbia,Oath Keepers member; acquitted of seditious conspiracy; sentence commuted to time served
+Jessica Watkins,2025-01-20,Commutation,January 6,Obstruction of official proceeding and aiding and abetting,8.5 years,0,Republican,District of Columbia,Oath Keepers member; acquitted of seditious conspiracy; sentence commuted to time served
+Roberto Minuta,2025-01-20,Commutation,January 6,Seditious conspiracy; conspiracy to obstruct official proceeding; obstruction of official proceeding; conspiracy to prevent Members of Congress from discharging duties,4.5 years,0,Republican,District of Columbia,Oath Keepers member; sentence commuted to time served; immediately released
+Edward Vallejo,2025-01-20,Commutation,January 6,Seditious conspiracy; conspiracy to obstruct official proceeding; obstruction of official proceeding; conspiracy to prevent Members of Congress from discharging duties,3 years with first year home confinement,0,Republican,District of Columbia,Oath Keepers member; sentence commuted to time served
+David Moerschel,2025-01-20,Commutation,January 6,Seditious conspiracy; conspiracy to obstruct official proceeding; obstruction of official proceeding,3 years,0,Republican,District of Columbia,Oath Keepers member; sentence commuted to time served; immediately released
+Joseph Hackett,2025-01-20,Commutation,January 6,Seditious conspiracy; conspiracy to obstruct official proceeding; obstruction of official proceeding; destruction of evidence,3.5 years,0,Republican,District of Columbia,Oath Keepers member; sentence commuted to time served; immediately released
+Ethan Nordean,2025-01-20,Commutation,January 6,Seditious conspiracy; obstruction of official proceeding; conspiracy to prevent members of Congress from discharging duties,18 years,0,Republican,District of Columbia,Proud Boys leader; sentence commuted to time served; immediately released
+Joseph Biggs,2025-01-20,Commutation,January 6,Seditious conspiracy; obstruction of official proceeding; conspiracy to prevent members of Congress from discharging duties,17 years,0,Republican,District of Columbia,Proud Boys leader; sentence commuted to time served; immediately released
+Zachary Rehl,2025-01-20,Commutation,January 6,Seditious conspiracy; obstruction of official proceeding; conspiracy to prevent members of Congress from discharging duties,15 years,0,Republican,District of Columbia,Proud Boys member; sentence commuted to time served; immediately released
+Dominic Pezzola,2025-01-20,Commutation,January 6,Obstruction of official proceeding; conspiracy to prevent members of Congress from discharging duties,10 years,0,Republican,District of Columbia,Proud Boys member; sentence commuted to time served; immediately released
+Jeremy Bertino,2025-01-20,Commutation,January 6,Seditious conspiracy and other charges,5 years,0,Republican,District of Columbia,Proud Boys member; sentence commuted to time served; immediately released
+Enrique Tarrio,2025-01-20,Pardon,January 6,Seditious conspiracy,22 years,0,Republican,District of Columbia,Former Proud Boys leader; full pardon; immediately released
+Robert Scott Palmer,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,63 months,2000,Republican,District of Columbia,Violent assault on police officers; full pardon
+Julian Elie Khater,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,80 months,2000,Republican,District of Columbia,Chemical spray attack on officers; full pardon
+Andrew Valentin,2025-01-20,Pardon,January 6,Assaulting officers,2.5 years,2000,Republican,District of Columbia,Assault on police officers; full pardon
+Matthew Valentin,2025-01-20,Pardon,January 6,Assaulting officers,2.5 years,2000,Republican,District of Columbia,Assault on police officers; full pardon
+Mark Ponder,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,63 months,2000,Republican,District of Columbia,Violent assault with dangerous weapon; full pardon
+Guy Reffitt,2025-01-20,Pardon,January 6,Obstruction of official proceeding; firearm possession,87 months,2000,Republican,District of Columbia,Armed participant; threatened family members; full pardon
+Thomas Robertson,2025-01-20,Pardon,January 6,Obstruction of official proceeding and other charges,7 years,2000,Republican,District of Columbia,Former police officer; full pardon
+Joshua Pruitt,2025-01-20,Pardon,January 6,Obstruction of official proceeding,55 months,2000,Republican,District of Columbia,Full pardon
+Thomas Webster,2025-01-20,Pardon,January 6,Assaulting police officer with dangerous weapon,10 years,2000,Republican,District of Columbia,Former NYPD officer; violent assault; full pardon
+Anthony Williams,2025-01-20,Pardon,January 6,Obstruction of official proceeding,5 years,2000,Republican,District of Columbia,Full pardon
+Kyle Young,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,86 months,2000,Republican,District of Columbia,Violent assault with dangerous weapon; full pardon
+Lucas Denney,2025-01-20,Pardon,January 6,Assaulting officers,52 months,2000,Republican,District of Columbia,Assault on police officers; full pardon
+Albuquerque Cosper Head,2025-01-20,Pardon,January 6,Assaulting officers,90 months,2000,Republican,District of Columbia,Violent assault on officers; full pardon
+James Burton McGrew,2025-01-20,Pardon,January 6,Assaulting officers,78 months,2000,Republican,District of Columbia,Assault on police officers; full pardon
+Daniel Ray Caldwell,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,68 months,2000,Republican,District of Columbia,Violent assault with dangerous weapon; full pardon
+Justin Jersey,2025-01-20,Pardon,January 6,Assaulting officers,51 months,2000,Republican,District of Columbia,Assault on police officers; full pardon
+Tristan Stevens,2025-01-20,Pardon,January 6,Assaulting officers,60 months,2000,Republican,District of Columbia,Assault on police officers; full pardon
+Daniel Egtvedt,2025-01-20,Pardon,January 6,Obstruction of official proceeding,42 months,2000,Republican,District of Columbia,Full pardon
+Mitchell Gardner,2025-01-20,Pardon,January 6,Assaulting officers,55 months,2000,Republican,District of Columbia,Assault on police officers; full pardon
+Aiden Henry Bilyard,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,40 months,2000,Republican,District of Columbia,Violent assault with dangerous weapon; full pardon
+Geoffrey William Sills,2025-01-20,Pardon,January 6,Obstruction; assaulting officers with dangerous weapon; robbery,52 months,2000,Republican,District of Columbia,Multiple violent charges; full pardon
+Josiah Kenyon,2025-01-20,Pardon,January 6,Assaulting law enforcement with dangerous weapon causing bodily injury,72 months,2000,Republican,District of Columbia,Violent assault causing injury; full pardon
+Shelly Stallings,2025-01-20,Pardon,January 6,Civil disorder; assaulting officer with dangerous weapon; entering restricted building with dangerous weapon,24 months,2000,Republican,District of Columbia,Armed assault; full pardon
+Logan James Barnhart,2025-01-20,Pardon,January 6,Assaulting officers using dangerous weapon,36 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Robert Wayne Dennis,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers; engaging in physical violence in restricted building; entering restricted building; physical violence in Capitol,36 months,2000,Republican,District of Columbia,Multiple violent charges; full pardon
+Vincent Gillespie,2025-01-20,Pardon,January 6,Assaulting officers; civil disorder; engaging in physical violence in restricted building; physical violence in Capitol,67 months,2000,Republican,District of Columbia,Multiple violent charges; full pardon
+Patrick Edward McCaughey,2025-01-20,Pardon,January 6,Three counts assaulting officers (one with dangerous weapon); obstruction; interfering with officer during civil disorder; disorderly conduct with deadly weapon; engaging in physical violence with deadly weapon; disorderly conduct in Capitol; violence in Capitol,90 months,2000,Republican,District of Columbia,Extensive violent charges; full pardon
+Christian Matthew Manley,2025-01-20,Pardon,January 6,Obstruction of official proceeding,36 months,2000,Republican,District of Columbia,Full pardon
+Jacob Michael Therres,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,48 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Jeffrey Scott Brown,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,54 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Peter Schwartz,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,72 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Hatchet Speed,2025-01-20,Pardon,January 6,Obstruction of official proceeding,36 months,2000,Republican,District of Columbia,Full pardon
+Dale Jeremiah Shalvey,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,48 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Donald Hazard,2025-01-20,Pardon,January 6,Obstruction of official proceeding,36 months,2000,Republican,District of Columbia,Full pardon
+Christopher Grider,2025-01-20,Pardon,January 6,Obstruction of official proceeding,83 months,2000,Republican,District of Columbia,Full pardon
+Robert Morss,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,72 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Richard Barnett,2025-01-20,Pardon,January 6,Obstruction of official proceeding,54 months,2000,Republican,District of Columbia,Nancy Pelosi's office intruder; full pardon
+Markus Maly,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,48 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Mikhail Slye,2025-01-20,Pardon,January 6,Obstruction of official proceeding,36 months,2000,Republican,District of Columbia,Full pardon
+Mason Joel Courson,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,60 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Daniel Joseph Rodriguez,2025-01-20,Pardon,January 6,Assaulting law enforcement with deadly weapon; obstruction,12.5 years,2000,Republican,District of Columbia,Taser attack on Officer Michael Fanone; full pardon
+James Robert Elliot,2025-01-20,Pardon,January 6,Assaulting officers,3 years,2000,Republican,District of Columbia,Assault on police; full pardon
+Grady Douglas Owens,2025-01-20,Pardon,January 6,Assaulting officers; disorderly conduct,37 months,2000,Republican,District of Columbia,Assault and disorderly conduct; full pardon
+Joshua Johnson,2025-01-20,Pardon,January 6,Obstruction of official proceeding,2 years,2000,Republican,District of Columbia,Full pardon
+Barry Ramey,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,5 years,2000,Republican,District of Columbia,Civil disorder and assault; full pardon
+Matthew Jason Beddingfield,2025-01-20,Pardon,January 6,Assaulting officers,3 years 2 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Cale Douglas Clayton,2025-01-20,Pardon,January 6,Assaulting officers,30 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Daniel Scott,2025-01-20,Pardon,January 6,Obstruction; assaulting officers,5 years,2000,Republican,District of Columbia,Obstruction and assault; full pardon
+Kyle Fitzsimons,2025-01-20,Pardon,January 6,Multiple charges including assaulting officers,7 years,2000,Republican,District of Columbia,Multiple assault charges; full pardon
+Audrey Southard-Rumsey,2025-01-20,Pardon,January 6,Multiple charges including assaulting officers,6 years,2000,Republican,District of Columbia,Multiple assault charges; full pardon
+Christopher Alberts,2025-01-20,Pardon,January 6,Carrying loaded pistol; using wooden pallet as battering ram against police,7 years,2000,Republican,District of Columbia,Armed assault on police; full pardon
+Thomas Sibick,2025-01-20,Pardon,January 6,Assaulting law enforcement; stealing Officer Fanone's badge and radio,4 years 2 months,2000,Republican,District of Columbia,Assault and theft from police officer; full pardon
+Salvador Sandoval,2025-01-20,Pardon,January 6,12 charges including assaulting police; attempting to take riot shields,7 years 4 months,2000,Republican,District of Columbia,Multiple felony assault charges; full pardon
+Daniel Dink Phipps,2025-01-20,Pardon,January 6,Assaulting law enforcement; threatening and resisting officers,2 years 3 months,2000,Republican,District of Columbia,Assault and threats against police; full pardon
+Michael Steven Perkins,2025-01-20,Pardon,January 6,Assaulting law enforcement with flagpole,4 years,2000,Republican,District of Columbia,Assault with flagpole weapon; full pardon
+Kevin Louis Galetto,2025-01-20,Pardon,January 6,Civil disorder; assaulting federal officer,27 months,2000,Republican,District of Columbia,Civil disorder and federal assault; full pardon
+Daniel Leyden,2025-01-20,Pardon,January 6,Assaulting officers using dangerous weapon,38 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Sean Michael McHugh,2025-01-20,Pardon,January 6,Obstruction; assaulting officers,78 months,7000,Republican,District of Columbia,Obstruction and assault; $5000 fine included; full pardon
+Eric Munchel,2025-01-20,Pardon,January 6,Conspiracy to obstruct; obstruction; disorderly conduct with deadly weapon; unauthorized weapon possession,57 months,2000,Republican,District of Columbia,Zip tie guy; weapons charges; full pardon
+Joseph Lino Padilla,2025-01-20,Pardon,January 6,Two counts civil disorder; assaulting officers with dangerous weapon; obstruction,78 months,2000,Republican,District of Columbia,Multiple violent charges; full pardon
+Yvonne St Cyr,2025-01-20,Pardon,January 6,Two counts obstructing law enforcement during civil disorder; misdemeanors,30 months,2000,Republican,District of Columbia,Obstruction during civil disorder; full pardon
+Jonathan Munafo,2025-01-20,Pardon,January 6,Assaulting officers; civil disorder,33 months,2000,Republican,District of Columbia,Assault and civil disorder; full pardon
+Rodney Milstreed,2025-01-20,Pardon,January 6,Assaulting officers using dangerous weapon; assaulting news photographer,60 months,2000,Republican,District of Columbia,Assault on police and media; full pardon
+Isaac Sturgeon,2025-01-20,Pardon,January 6,Assaulting officers; obstruction; civil disorder,72 months,2000,Republican,District of Columbia,Multiple violent charges; full pardon
+Craig Bingert,2025-01-20,Pardon,January 6,Assaulting officers; obstruction; civil disorder,96 months,2000,Republican,District of Columbia,Multiple violent charges; full pardon
+Shane Jenkins,2025-01-20,Pardon,January 6,Civil disorder; obstruction; assaulting officer with dangerous weapon; destruction of government property,84 months,2000,Republican,District of Columbia,Multiple violent and destruction charges; full pardon
+Thomas Harlan Smith,2025-01-20,Pardon,January 6,Assaulting officers; obstruction; civil disorder,108 months,2000,Republican,District of Columbia,Multiple violent charges; full pardon
+Joseph Howe,2025-01-20,Pardon,January 6,Obstruction; assaulting officers,50 months,2000,Republican,District of Columbia,Obstruction and assault; full pardon
+Richard Harris,2025-01-20,Pardon,January 6,Five felonies and six misdemeanors including assaulting officers; obstruction,41 months,2000,Republican,District of Columbia,Multiple charges; full pardon
+Steven Cappuccio,2025-01-20,Pardon,January 6,Multiple felony charges including assaulting law enforcement,85 months,2000,Republican,District of Columbia,Multiple felony assaults; full pardon
+Federico Klein,2025-01-20,Pardon,January 6,Assaulting officers,5 years 10 months,2000,Republican,District of Columbia,Former State Department employee; assault; full pardon
+Edward Rodriguez,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,3 years,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Kenneth Joseph Thomas,2025-01-20,Pardon,January 6,Assaulting officers,4 years 10 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Zachary Johnson,2025-01-20,Pardon,January 6,Assaulting officers,3 years,2000,Republican,District of Columbia,Assault on police; full pardon
+Alan Hostetter,2025-01-20,Pardon,January 6,Conspiracy to obstruct; obstruction; entering restricted grounds with deadly weapon; disorderly conduct with deadly weapon,11 years,2000,Republican,District of Columbia,Armed conspiracy; full pardon
+Thomas John Ballard,2025-01-20,Pardon,January 6,Assaulting officers using dangerous weapon,54 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Matthew Krol,2025-01-20,Pardon,January 6,Assaulting officers with dangerous weapon,51 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Anthony Sargent,2025-01-20,Pardon,January 6,Civil disorder; destruction of property; disorderly conduct,60 months,2000,Republican,District of Columbia,Civil disorder and destruction; full pardon
+Sara Carpenter,2025-01-20,Pardon,January 6,Civil disorder; obstruction; misdemeanors,22 months,2000,Republican,District of Columbia,Civil disorder; full pardon
+Christopher Worrell,2025-01-20,Pardon,January 6,Assaulting officers with pepper spray gel,10 years,2000,Republican,District of Columbia,Chemical weapon assault; full pardon
+Ryan Swoope,2025-01-20,Pardon,January 6,Assaulting officers,51 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Gilbert Fonticoba,2025-01-20,Pardon,January 6,Obstruction; civil disorder,48 months,2000,Republican,District of Columbia,Obstruction and civil disorder; full pardon
+Reed Knox Christensen,2025-01-20,Pardon,January 6,Civil disorder; three counts assaulting officers,46 months,2000,Republican,District of Columbia,Multiple assault charges; full pardon
+Kenneth Bonawitz,2025-01-20,Pardon,January 6,Civil disorder; obstruction; assaulting law enforcement during civil disorder,5 years,2000,Republican,District of Columbia,Multiple charges; full pardon
+Jonathan David Grace,2025-01-20,Pardon,January 6,Assaulting officers,24 months,7000,Republican,District of Columbia,Assault; $5000 fine included; full pardon
+Clayton Mullins,2025-01-20,Pardon,January 6,Assaulting officers,30 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Ralph Celentano,2025-01-20,Pardon,January 6,Assaulting officers; civil disorder,78 months,2000,Republican,District of Columbia,Assault and civil disorder; full pardon
+Douglas Wyatt,2025-01-20,Pardon,January 6,Assaulting federal officer using dangerous weapon,50 months,2000,Republican,District of Columbia,Violent federal assault; full pardon
+Steven Miles,2025-01-20,Pardon,January 6,Assaulting law enforcement officers,24 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Damon Michael Beckley,2025-01-20,Pardon,January 6,Obstruction; civil disorder,18 months,2000,Republican,District of Columbia,Obstruction and civil disorder; full pardon
+Marc Bru,2025-01-20,Pardon,January 6,Obstruction; civil disorder; five misdemeanors,5 years,2000,Republican,District of Columbia,Multiple charges; full pardon
+Riley Kasper,2025-01-20,Pardon,January 6,Assaulting law enforcement during civil disorder,37 months,2000,Republican,District of Columbia,Assault during disorder; full pardon
+Peter Krill,2025-01-20,Pardon,January 6,Civil disorder,9 months,2000,Republican,District of Columbia,Civil disorder; full pardon
+Daniel Paul Gray,2025-01-20,Pardon,January 6,Obstruction; assaulting officers,30 months,2000,Republican,District of Columbia,Obstruction and assault; full pardon
+Jacob Zerkle,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,24 months,2000,Republican,District of Columbia,Civil disorder and assault; full pardon
+Jason Farris,2025-01-20,Pardon,January 6,Assaulting officers,18 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Michael Foy,2025-01-20,Pardon,January 6,Obstruction; assaulting officers,40 months,2000,Republican,District of Columbia,Obstruction and assault; full pardon
+Ronald Colton McAbee,2025-01-20,Pardon,January 6,Multiple felonies including assaulting officers; civil disorder,70 months,34165,Republican,District of Columbia,Multiple violent charges; full pardon
+Jeffrey Sabol,2025-01-20,Pardon,January 6,Obstruction; assaulting officers,63 months,34000,Republican,District of Columbia,Obstruction and assault; full pardon
+Christopher Roe,2025-01-20,Pardon,January 6,Assaulting officers,70 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Clifford Mackrell,2025-01-20,Pardon,January 6,Assaulting officers,27 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Michael Mackrell,2025-01-20,Pardon,January 6,Assaulting officers,27 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Taylor Johnatakis,2025-01-20,Pardon,January 6,Obstruction; civil disorder; assaulting officers,87 months,2000,Republican,District of Columbia,Multiple charges; full pardon
+Derek Kinnison,2025-01-20,Pardon,January 6,Conspiracy to obstruct; obstruction; tampering with documents,33 months,2000,Republican,District of Columbia,Conspiracy and tampering; full pardon
+Erik Scott Warner,2025-01-20,Pardon,January 6,Conspiracy to obstruct; obstruction; tampering with documents,27 months,2000,Republican,District of Columbia,Conspiracy and tampering; full pardon
+Felipe Antonio Martinez,2025-01-20,Pardon,January 6,Conspiracy to obstruct; obstruction,21 months,2000,Republican,District of Columbia,Conspiracy charges; full pardon
+Ronald Mele,2025-01-20,Pardon,January 6,Conspiracy to obstruct; obstruction,33 months,2000,Republican,District of Columbia,Conspiracy charges; full pardon
+Isreal Easterday,2025-01-20,Pardon,January 6,Civil disorder; two counts assaulting officers using dangerous weapon,30 months,2000,Republican,District of Columbia,Multiple violent assaults; full pardon
+David Joseph Gietzen,2025-01-20,Pardon,January 6,Civil disorder; two counts assaulting officers,72 months,2000,Republican,District of Columbia,Multiple assault charges; full pardon
+Matthew DaSilva,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,28 months,2000,Republican,District of Columbia,Civil disorder and assault; full pardon
+John Earle Sullivan,2025-01-20,Pardon,January 6,Obstruction; obstructing officers during civil disorder,72 months,2000,Republican,District of Columbia,Obstruction charges; full pardon
+Jack Wade Whitton,2025-01-20,Pardon,January 6,Assaulting officers with deadly weapon,57 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Ryan Taylor Nichols,2025-01-20,Pardon,January 6,Obstruction; assaulting officers,63 months,202000,Republican,District of Columbia,Assault; $200000 fine included; full pardon
+Matthew Brackley,2025-01-20,Pardon,January 6,Assaulting officers,15 months,5000,Republican,District of Columbia,Assault; $3000 fine included; full pardon
+Tucker Weston,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,24 months,2000,Republican,District of Columbia,Civil disorder and assault; full pardon
+Christopher Quaglin,2025-01-20,Pardon,January 6,Assaulting officers; inflicting bodily injury on officers; obstruction,12 years,2000,Republican,District of Columbia,Violent assault causing injury; full pardon
+Joseph Fisher,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,20 months,2000,Republican,District of Columbia,Civil disorder and assault; full pardon
+Alex Kirk Harkrider,2025-01-20,Pardon,January 6,Civil disorder; obstruction; entering restricted building with deadly weapon,24 months,2000,Republican,District of Columbia,Armed charges; full pardon
+John George Todd,2025-01-20,Pardon,January 6,Obstruction; assaulting officers inflicting bodily harm,5 years,2000,Republican,District of Columbia,Assault causing injury; full pardon
+Andrew Taake,2025-01-20,Pardon,January 6,Assaulting officers using dangerous weapon,74 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Farhad Azari,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers with deadly weapon,30 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Farbod Azari,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers with deadly weapon,50 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Dale Huttle,2025-01-20,Pardon,January 6,Assaulting officers using dangerous weapon causing serious bodily injury,30 months,3639,Republican,District of Columbia,Assault causing serious injury; full pardon
+Anthony Mastanduno,2025-01-20,Pardon,January 6,Six felonies including civil disorder; entering restricted building with deadly weapon; disorderly conduct with deadly weapon; engaging in physical violence with deadly weapon; two counts assaulting officers using deadly weapon,57 months,2000,Republican,District of Columbia,Six felony weapons charges; full pardon
+Devin McNulty,2025-01-20,Pardon,January 6,Assaulting officers,12 months 1 day,2000,Republican,District of Columbia,Assault on police; full pardon
+Quinn Keen,2025-01-20,Pardon,January 6,Assaulting officers,24 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Raymund Cholod,2025-01-20,Pardon,January 6,Assaulting officers,40 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Kyle Kumar,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,10 months,2000,Republican,District of Columbia,Civil disorder and assault; full pardon
+Curtis Logan Tate,2025-01-20,Pardon,January 6,Three felony counts assaulting officers with deadly weapon,63 months,5176,Republican,District of Columbia,Multiple violent assaults; full pardon
+Alan St. Onge,2025-01-20,Pardon,January 6,Two counts civil disorder,18 months,2000,Republican,District of Columbia,Civil disorder; full pardon
+William Stover,2025-01-20,Pardon,January 6,Civil disorder,6 months,2000,Republican,District of Columbia,Civil disorder; full pardon
+John Anthony Schubert,2025-01-20,Pardon,January 6,Assaulting officers,40 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Joseph Brody,2025-01-20,Pardon,January 6,Assaulting officers,18 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Tyler Bradley Dykes,2025-01-20,Pardon,January 6,Assaulting officers using dangerous weapon,57 months,24000,Republican,District of Columbia,Violent assault; $22000 fine included; full pardon
+Marcus Martin,2025-01-20,Pardon,January 6,Assaulting officers,32 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Steven Cook,2025-01-20,Pardon,January 6,Assaulting officers,28 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Nester Lynnwood,2025-01-20,Pardon,January 6,Assaulting law enforcement officer; civil disorder,30 months,2000,Republican,District of Columbia,Assault and civil disorder; full pardon
+Gregory Yetman,2025-01-20,Pardon,January 6,Assaulting officers,30 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Brian Scott Jackson,2025-01-20,Pardon,January 6,Assaulting officers,37 months,2000,Republican,District of Columbia,Assault on police; full pardon
+David Arredondo,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,33 months,2000,Republican,District of Columbia,Civil disorder and assault; full pardon
+David Dempsey,2025-01-20,Pardon,January 6,Assaulting officers with deadly weapon,240 months,2000,Republican,District of Columbia,Most violent individual; 20 year sentence; full pardon
+Rally Runner (Daniel Donnelly Jr.),2025-01-20,Pardon,January 6,Civil disorder,10 months,5000,Republican,District of Columbia,Civil disorder; $3000 fine included; full pardon
+Thomas Casselman,2025-01-20,Pardon,January 6,Assaulting officers,40 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Matthew Honigford,2025-01-20,Pardon,January 6,Assaulting officers,19 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Dan Edwin Wilson,2025-01-20,Pardon,January 6,Conspiracy to impede or injure federal officer,60 months,2000,Republican,District of Columbia,Conspiracy against federal officer; full pardon
+Richard Cook,2025-01-20,Pardon,January 6,Civil disorder; five misdemeanor offenses,18 months,2000,Republican,District of Columbia,Civil disorder and misdemeanors; full pardon
+Michael Asbury,2025-01-20,Pardon,January 6,Obstruction of law enforcement during civil disorder,4 months,2000,Republican,District of Columbia,Obstruction during disorder; full pardon
+Michael Sparks,2025-01-20,Pardon,January 6,Obstruction; civil disorder,53 months,2000,Republican,District of Columbia,Obstruction and civil disorder; full pardon
+Bryan Bishop,2025-01-20,Pardon,January 6,Assaulting officers,45 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Jacquelyn Starer,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,9 months,6000,Republican,District of Columbia,Civil disorder and assault; $4000 fine included; full pardon
+Nathan Baer,2025-01-20,Pardon,January 6,Civil disorder,4 months,2000,Republican,District of Columbia,Civil disorder; full pardon
+Kyle McMahan,2025-01-20,Pardon,January 6,Assaulting officers,19 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Antonio Lamotta,2025-01-20,Pardon,January 6,Civil disorder; two misdemeanor offenses,6 months,2000,Republican,District of Columbia,Civil disorder and misdemeanors; full pardon
+Luke Hoffman,2025-01-20,Pardon,January 6,Two felony charges assaulting officers,20 months,2000,Republican,District of Columbia,Two felony assaults; full pardon
+Glenn Allen Brooks,2025-01-20,Pardon,January 6,Entering restricted building; disorderly conduct; parading in Capitol,12 months,2000,Republican,District of Columbia,Trespassing and conduct charges; full pardon
+Benjamin John Silva,2025-01-20,Pardon,January 6,Obstruction of law enforcement during civil disorder,4 months,2000,Republican,District of Columbia,Obstruction during disorder; full pardon
+Jason Benjamin Blythe,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers with deadly weapon,30 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Stephen Chase Randolph,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers with deadly weapon,96 months,2000,Republican,District of Columbia,Violent assault with weapon; full pardon
+Elliot Resnick,2025-01-20,Pardon,January 6,Obstruction of law enforcement during civil disorder,4 months,12539,Republican,District of Columbia,Obstruction; $10539 fine included; full pardon
+William Dunfee,2025-01-20,Pardon,January 6,Civil disorder; entering restricted building,30 months,12000,Republican,District of Columbia,Civil disorder; $10000 fine included; full pardon
+Tyler Ethridge,2025-01-20,Pardon,January 6,Obstruction; civil disorder,7 months,2000,Republican,District of Columbia,Obstruction and civil disorder; full pardon
+Nicholas Ortt,2025-01-20,Pardon,January 6,Assaulting officers,27 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Patrick Woehl,2025-01-20,Pardon,January 6,Civil disorder; obstruction,40 months,7000,Republican,District of Columbia,Civil disorder and obstruction; $5000 fine; full pardon
+Jeremy Groseclose,2025-01-20,Pardon,January 6,Civil disorder; obstruction; misdemeanor charges,40 months,7000,Republican,District of Columbia,Multiple charges; $5000 fine; full pardon
+Michael Oliveras,2025-01-20,Pardon,January 6,Civil disorder; obstruction; assaulting officers,60 months,2000,Republican,District of Columbia,Multiple charges; full pardon
+James Weeks,2025-01-20,Pardon,January 6,Assaulting officers,27 months,7774,Republican,District of Columbia,Assault; $5000 fine; $2774 restitution; full pardon
+Allan Jennings,2025-01-20,Pardon,January 6,Civil disorder; destruction of government property,12 months,5825,Republican,District of Columbia,Destruction of property; $3825 total; full pardon
+Henry Muntzer,2025-01-20,Pardon,January 6,Civil disorder; obstruction,24 months,2000,Republican,District of Columbia,Civil disorder and obstruction; full pardon
+Robin Reierson,2025-01-20,Pardon,January 6,Assaulting officers,18 months,9000,Republican,District of Columbia,Assault; $7000 total; full pardon
+Dana Bell,2025-01-20,Pardon,January 6,Assaulting officers,17 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Curtis Davis,2025-01-20,Pardon,January 6,Assaulting officers,24 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Mark Middleton,2025-01-20,Pardon,January 6,Assaulting officers; civil disorder,30 months,2000,Republican,District of Columbia,Assault and civil disorder; full pardon
+Jalise Middleton,2025-01-20,Pardon,January 6,Assaulting officers; civil disorder,20 months,2000,Republican,District of Columbia,Assault and civil disorder; full pardon
+Jared Samuel Kastner,2025-01-20,Pardon,January 6,Four misdemeanor counts including entering restricted building; disorderly conduct; parading in Capitol,12 months,2000,Republican,District of Columbia,Multiple misdemeanors; full pardon
+Patrick Montgomery,2025-01-20,Pardon,January 6,Obstruction; assaulting officers,37 months,2000,Republican,District of Columbia,Obstruction and assault; full pardon
+Kyle Andrew Campbell,2025-01-20,Pardon,January 6,Assaulting officers,4 months,2000,Republican,District of Columbia,Assault on police; full pardon
+Troy Weeks,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,21 months,2000,Republican,District of Columbia,Civil disorder and assault; full pardon
+Micaiah Joseph,2025-01-20,Pardon,January 6,Civil disorder; assaulting officers,37 months,2000,Republican,District of Columbia,Civil disorder and assault; full pardon
+Casey Tryon Castro,2025-01-20,Pardon,January 6,Civil disorder; robbery; two counts assaulting officers,31 months,2000,Republican,District of Columbia,Multiple violent charges; full pardon
+Ross Ulbricht,2025-01-21,Pardon,Drug,Aiding and abetting distribution of drugs over internet; continuing criminal enterprise; fraud with identification documents; conspiracy to commit money laundering; conspiracy to commit computer hacking,Life imprisonment plus 40 years; $183961921 fine,183961921,Unknown,Southern District of New York,Dread Pirate Roberts; Silk Road founder; campaign promise to Libertarians
+Andrew Zabavsky,2025-01-22,Pardon,Law Enforcement,Conspiracy; obstruction of justice; aiding and abetting,48 months; 3 years supervised release,0,Unknown,District of Columbia,DC police officer in Karon Hylton-Brown death case
+Terence Dale Sutton Jr.,2025-01-22,Pardon,Law Enforcement,Murder in second degree; conspiracy; obstruction of justice; aiding and abetting,66 months; 3 years supervised release,0,Unknown,District of Columbia,DC police officer in Karon Hylton-Brown death case
+Lauren Handy,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; violation of FACE Act,57 months; 36 months supervised release,0,Republican,District of Columbia,Anti-abortion clinic blockade leader
+Jonathan Darnel,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; violation of FACE Act,34 months; 36 months supervised release,0,Republican,District of Columbia,Anti-abortion protester
+Jay Smith,2025-01-23,Pardon,Anti-Abortion,Violation of FACE Act,10 months; 36 months supervised release,0,Republican,District of Columbia,Anti-abortion protester
+Paula Paulette Harlow,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; violation of FACE Act,24 months; 36 months supervised release,0,Republican,District of Columbia,Anti-abortion protester
+Jean Marshall,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; violation of FACE Act,24 months; 36 months supervised release,0,Republican,District of Columbia,Anti-abortion protester
+John Hinshaw,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; violation of FACE Act,21 months; 36 months supervised release,0,Republican,District of Columbia,Anti-abortion protester
+Heather Idoni,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; clinic access obstruction; violation of FACE Act,24 months; 36 months supervised release,0,Republican,Multiple Districts,Anti-abortion protester; multiple cases
+William Goodman,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; violation of FACE Act,27 months; 36 months supervised release,0,Republican,District of Columbia,Anti-abortion protester
+Joan Bell,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; violation of FACE Act,27 months; 36 months supervised release,0,Republican,District of Columbia,Anti-abortion protester
+Herb Geraghty,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; violation of FACE Act,27 months; 36 months supervised release,0,Republican,District of Columbia,Anti-abortion protester
+Chester Gallagher,2025-01-23,Pardon,Anti-Abortion,Conspiracy to obstruct clinic access; violation of FACE Act,16 months; 3 years supervised release,0,Republican,Multiple Districts,Anti-abortion protester; multiple cases
+Calvin Zastrow,2025-01-23,Pardon,Anti-Abortion,Conspiracy to obstruct clinic access; violation of FACE Act,6 months; 3 years supervised release,0,Republican,Multiple Districts,Anti-abortion protester; multiple cases
+Coleman Boyd,2025-01-23,Pardon,Anti-Abortion,Conspiracy to obstruct clinic access; violation of FACE Act,5 years probation; $10000 fine,10000,Republican,Middle District of Tennessee,Anti-abortion protester
+Caroline Davis,2025-01-23,Pardon,Anti-Abortion,Conspiracy to interfere with clinic access; aiding and abetting interference,3 years probation; 1 year non-reporting probation,0,Republican,Multiple Districts,Anti-abortion protester; multiple cases
+Paul Vaughn,2025-01-23,Pardon,Anti-Abortion,Conspiracy to obstruct clinic access; violation of FACE Act,Time served; 3 years supervised release,0,Republican,Middle District of Tennessee,Anti-abortion protester
+Dennis Green,2025-01-23,Pardon,Anti-Abortion,Conspiracy to obstruct clinic access; violation of FACE Act,Time served; 3 years supervised release,0,Republican,Middle District of Tennessee,Anti-abortion protester
+Eva Edl,2025-01-23,Pardon,Anti-Abortion,Violation of FACE Act; conspiracy against rights,3 years probation (vacated),0,Republican,Multiple Districts,Anti-abortion protester; multiple cases
+Eva Zastrow,2025-01-23,Pardon,Anti-Abortion,Violation of FACE Act; conspiracy against rights,3 years probation (vacated),0,Republican,Multiple Districts,Anti-abortion protester; multiple cases
+James Zastrow,2025-01-23,Pardon,Anti-Abortion,Violation of FACE Act,3 years probation,0,Republican,Middle District of Tennessee,Anti-abortion protester
+Paul Place,2025-01-23,Pardon,Anti-Abortion,Violation of FACE Act,3 years probation (vacated),0,Republican,Middle District of Tennessee,Anti-abortion protester
+Joel Curry,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; clinic access obstruction,N/A,0,Republican,Eastern District of Michigan,Anti-abortion protester
+Justin Phillips,2025-01-23,Pardon,Anti-Abortion,Conspiracy against rights; clinic access obstruction,N/A,0,Republican,Eastern District of Michigan,Anti-abortion protester
+Bevelyn Beatty Williams,2025-01-23,Pardon,Anti-Abortion,Violation of FACE Act,41 months; 2 years supervised release,0,Republican,Southern District of New York,Anti-abortion protester
+Christopher Moscinski,2025-01-23,Pardon,Anti-Abortion,Interference with freedom of access to reproductive health services,6 months; 1 year supervised release,0,Republican,Eastern District of New York,Anti-abortion protester
+Rod Blagojevich,2025-02-10,Pardon,Political,Wire fraud (10 counts); conspiracy/attempted extortion (4 counts); corrupt solicitation of funds; conspiracy to corruptly solicit funds (2 counts); making false statements,14 years; 2 years supervised release; $20000 fine,20000,Democrat,Northern District of Illinois,Former Illinois Governor; appeared on Celebrity Apprentice; Trump donated to his campaigns
+Brian Kelsey,2025-03-11,Pardon,Political,Conspiring to defraud US; aiding and abetting acceptance of excessive campaign contribution,21 months; 3 years supervised release,0,Republican,Middle District of Tennessee,Former Tennessee State Senator; campaign finance violations
+Thomas Edward Caldwell,2025-03-20,Pardon,January 6,Tampering with documents or proceedings,Time served,0,Republican,District of Columbia,Retired Navy intelligence officer; January 6 case
+Devon Archer,2025-03-25,Pardon,Business,Conspiracy to commit securities fraud; securities fraud,1 year 1 day; 1 year supervised release; $43427436 restitution,43427436,Unknown,Southern District of New York,Hunter Biden's former business partner; tribal bond scheme
+Trevor Milton,2025-03-27,Pardon,Business,Securities fraud; wire fraud,48 months; 3 years supervised release,661000000,Unknown,Southern District of New York,Nikola Corporation founder; donated $1.8M to Trump campaign before pardon
+Arthur Hayes,2025-03-27,Pardon,Business,Violating Bank Secrecy Act,2 years probation; 6 months home confinement,0,Unknown,Southern District of New York,BitMEX co-founder; cryptocurrency exchange
+Ben Delo,2025-03-27,Pardon,Business,Violating Bank Secrecy Act,30 months,0,Unknown,Southern District of New York,BitMEX co-founder; cryptocurrency exchange
+Samuel Reed,2025-03-27,Pardon,Business,Violating Bank Secrecy Act,18 months probation,0,Unknown,Southern District of New York,BitMEX co-founder; cryptocurrency exchange
+Gregory Dwyer,2025-03-27,Pardon,Business,Violating Bank Secrecy Act,1 year probation; $150000 fine,150000,Unknown,Southern District of New York,BitMEX head of business development
+HDR Global Trading Limited,2025-03-27,Pardon,Business,Violating Bank Secrecy Act,2 years unsupervised probation; $100000000 fine,100000000,Unknown,Southern District of New York,BitMEX corporate entity; $100M fine
+Michele Fiore,2025-04-23,Pardon,Corruption,Conspiracy to commit wire fraud; wire fraud (6 counts),Awaiting sentencing,70000,Republican,District of Nevada,Former Nevada lawmaker; charity fraud for police memorial
+Paul Walczak,2025-04-23,Pardon,Business,Willful failure to pay employment taxes; failure to file return,18 months; 2 years supervised release; $4381265.76 restitution,4381265,Unknown,Southern District of Florida,Tax crimes; mother paid $1M for Mar-a-Lago fundraising dinner
+Scott Howard Jenkins,2025-05-27,Pardon,Corruption,Conspiracy to commit bribery; honest services mail fraud; honest services wire fraud (3 counts); bribery concerning federal programs (7 counts),20 months; 3 years supervised release; $600 fine,75600,Republican,Western District of Virginia,Culpeper County Sheriff; received $75000 in bribes; pardoned day before prison
+James Callahan,2025-05-27,Pardon,Corruption,Filing false labor union reports,N/A,315000,Unknown,District of Columbia,International Union of Operating Engineers President; $315000 in unreported kickbacks
+Kevin Eric Baisden,2025-05-28,Pardon,Other,Shoplifting; second degree theft; bail reform act; second degree theft,Various suspended sentences; supervised release; $200 total fines,200,Unknown,DC Superior Court,Multiple theft convictions during substance abuse; now sober and graduating law school
+Mark Bashaw,2025-05-28,Pardon,Law Enforcement,Violation of lawful orders,No punishment,0,Republican,Army Court Martial,Army First Lieutenant; court martial for COVID protocol violations; separated for vaccine refusal
+Todd Chrisley,2025-05-28,Pardon,Celebrity,Bank fraud; tax evasion,12 years; $17800000 restitution,17800000,Republican,Northern District of Georgia,Reality TV star; daughter spoke at 2024 RNC
+Julie Chrisley,2025-05-28,Pardon,Celebrity,Bank fraud; tax evasion,7 years; $17800000 restitution,17800000,Republican,Northern District of Georgia,Reality TV star; spouse of Todd Chrisley
+Kentrell Gaulden (NBA YoungBoy),2025-05-28,Pardon,Celebrity,Illegal possession of firearms; drug charges,23 months; 5 years probation; $200000 fine,200000,Unknown,District of Utah,Popular rapper; federal gun charges
+Michael Grimm,2025-05-28,Pardon,Political,Aiding and assisting in preparation of false and fraudulent tax returns,8 months; 1 year supervised release; $148907.11 restitution,148907,Republican,Eastern District of New York,Former Republican Congressman; threatened reporter on camera
+Michael Ray Harris,2025-05-28,Pardon,Drug,Conspiracy to possess with intent to distribute cocaine; aiding and abetting possession and distribution of cocaine; possession with intent to distribute cocaine,235 months (commuted to expire Jan 19 2021); 5 years supervised release; $80000 fine,80000,Unknown,Central District of California,Drug conspiracy case
+James Kernan,2025-05-28,Pardon,Business,Knowingly and willfully permitting convicted felon to be engaged in insurance business,5 years probation; 400 hours community service; $250000 fine,250000,Unknown,Northern District of New York,Insurance violations
+Marlene Kernan,2025-05-28,Pardon,Business,Permitting convicted felon to engage in insurance business,2 years probation; $182708 fine,182708,Unknown,Northern District of New York,Insurance violations; spouse of James Kernan
+John Rowland,2025-05-28,Pardon,Political,Conspiracy to defraud US; falsification of records in federal investigation; conspiracy; causing false statements (2 counts); illegal campaign contributions (2 counts),42 months total; 3 years supervised release; $117000 total fines,117000,Republican,District of Connecticut,Former Connecticut Governor; multiple corruption convictions; served twice
+Jean Pinkard,2025-03-04,Commutation,Drug,Conspiracy to possess with intent to distribute controlled opioids,1 year 1 day; 3 years supervised release,0,Unknown,Eastern District of Michigan,Detroit nurse practitioner; opioid distribution scheme
+Jason Galanis,2025-03-28,Commutation,Business,Conspiracy to commit securities fraud (2 counts); securities fraud; investment adviser fraud,308 months total; 3 years supervised release; $84817513 total restitution,84817513,Unknown,Southern District of New York,Former Hunter Biden associate; tribal bond scheme
+Carlos Watson,2025-03-28,Commutation,Business,Conspiracy to commit securities fraud; conspiracy to commit wire fraud; aggravated identity theft,116 months; 2 years supervised release,0,Unknown,Eastern District of New York,Ozy Media founder; commuted hours before prison reporting
+Larry Hoover,2025-05-28,Commutation,Drug,Narcotics conspiracy; continuing criminal enterprise; use of persons under 18; distribution of cocaine; use of communication facility; distribution of cocaine (2 counts); use of firearm in drug trafficking,Life plus 5 years supervised release,0,Unknown,Northern District of Illinois,Gangster Disciples leader; federal sentence commuted but still serves state murder sentence
+Lawrence S. Duran,2025-05-28,Commutation,Business,Conspiracy to commit health care fraud; health care fraud (11 counts); conspiracy to defraud US and receive health care kickbacks; conspiracy to commit money laundering; money laundering (18 counts); structuring to avoid reporting (6 counts),50 years; 3 years supervised release; $87533863.46 restitution,87533863,Unknown,Southern District of Florida,$200M Medicare fraud scheme; American Therapeutic Corporation
+Imaad Zuberi,2025-05-28,Commutation,Business,Falsifying records to conceal foreign agent work; tax evasion; illegal campaign contributions; obstructing federal investigation,144 months; 3 years supervised release; $1750000 fine; $15705080.11 restitution,17455080,Unknown,Central District of California,Foreign agent violations; illegal campaign contributions including to Trump inaugural committee
+Rick Renzi,2021-01-20,Pardon,Political,Land swap corruption allegations,36 months,0,Republican,Arizona Federal Court,Former Arizona Congressman (R-AZ); convicted 2013
+Duke Cunningham,2021-01-20,Pardon,Political,Conspiracy to commit bribery,100 months,0,Republican,California Federal Court,Former California Congressman (R-CA); convicted 2006
+Robin Hayes,2021-01-20,Pardon,Political,Making false statements in federal bribery investigation,1 year probation,0,Republican,North Carolina Federal Court,Former North Carolina Congressman (R-NC); convicted 2020
+Duncan Hunter,2020-12-23,Pardon,Political,Misusing campaign funds for personal benefit,11 months,150000,Republican,California Federal Court,Former California Congressman (R-CA); convicted 2020
+Mark D. Siljander,2020-12-20,Pardon,Political,Obstruction of justice; acting as unregistered foreign agent,12 months,75000,Republican,Michigan Federal Court,Former Michigan Congressman (R-MI); received $75000 from Islamic charity
+Chris Collins,2020-12-23,Pardon,Political,Insider trading,26 months,0,Republican,New York Federal Court,Former New York Congressman (R-NY); served only 2 months
+Steve Stockman,2020-12-23,Commutation,Political,Using charitable donations for personal use and campaign funding,10 years (23 felonies),0,Republican,Texas Federal Court,Former Texas Congressman (R-TX); convicted 2018
+Alexander PG Sittenfeld,2025-05-28,Pardon,Political,Accepting campaign contributions in exchange for guaranteed votes,16 months,0,Democrat,Ohio Federal Court,Former Cincinnati City Council member; development project bribery
+Kwame Kilpatrick,2021-01-19,Commutation,Political,Racketeering; bribery scheme,28 years,0,Democrat,Michigan Federal Court,Former Detroit Mayor; exploited office for personal enrichment; still owes restitution
+Mary McCarty,2020-12-23,Pardon,Political,Using commissioner position for personal enrichment through municipal bond transactions,42 months,0,Republican,Florida Federal Court,Former Palm Beach County Commissioner (R-FL); convicted 2009
+Pat Nolan,2019-05-20,Pardon,Political,Racketeering for extorting campaign contributions,33 months,0,Republican,California Federal Court,Former California Assemblyman (R-CA); convicted 1994Ross Ulbricht,2025-01-21,Pardon,Drug,"Narcotics distribution; money laundering; computer hacking conspiracy",Life without parole,0,Unknown,District of New York,"Silk Road dark web marketplace founder; serving life sentence since 2015"
+Enrique Tarrio,2025-01-20,Commutation,January 6,"Seditious conspiracy; conspiracy to obstruct official proceeding",22 years,0,Republican,District of Columbia,"Former Proud Boys leader; sentence commuted to time served"
+Ethan Nordean,2025-01-20,Commutation,January 6,"Seditious conspiracy; obstruction of official proceeding",18 years,0,Republican,District of Columbia,"Proud Boys leader; sentence commuted to time served"
+Joseph Biggs,2025-01-20,Commutation,January 6,"Seditious conspiracy; obstruction of official proceeding",17 years,0,Republican,District of Columbia,"Proud Boys organizer; sentence commuted to time served"
+Zachary Rehl,2025-01-20,Commutation,January 6,"Seditious conspiracy; obstruction of official proceeding",15 years,0,Republican,District of Columbia,"Proud Boys chapter president; sentence commuted to time served"
+Dominic Pezzola,2025-01-20,Commutation,January 6,"Obstruction of official proceeding; assault; destruction of property",10 years,0,Republican,District of Columbia,"Proud Boys member; broke Capitol window with riot shield"
+Julian Khater,2025-01-20,Pardon,January 6,"Assault on federal officers; conspiracy",80 months,0,Republican,District of Columbia,"Sprayed bear spray on Officer Brian Sicknick who died next day"
+George Tanios,2025-01-20,Pardon,January 6,"Conspiracy; assault on federal officers",Pending,0,Republican,District of Columbia,"Co-conspirator with Julian Khater in Officer Sicknick attack"
+Thomas Webster,2025-01-20,Pardon,January 6,"Assault on federal officer with dangerous weapon",10 years,0,Republican,District of Columbia,"Former NYPD officer; attacked police with flagpole"
+Guy Reffitt,2025-01-20,Pardon,January 6,"Obstruction of official proceeding; being armed on Capitol grounds",87 months,0,Republican,District of Columbia,"First Jan 6 defendant to go to trial; threatened family"
+Rod Blagojevich,2025-02-15,Pardon,Political,"Public corruption; conspiracy to commit mail fraud",14 years,0,Democrat,District of Illinois,"Former Illinois Governor; full pardon clears criminal record"
+Brian Kelsey,2025-03-15,Pardon,Political,"Campaign finance fraud; conspiracy",21 months,0,Republican,District of Tennessee,"Former Tennessee state senator; served only 2 weeks before pardon"
+Devon Archer,2025-03-25,Pardon,Business,"Securities fraud; defrauding Native American tribe",1 year,60000000,Unknown,District of New York,"Hunter Biden former business partner; testified against Biden family"
+Paul Walczak,2025-04-10,Pardon,Business,"Tax evasion; misappropriation of employment taxes",18 months,10000000,Republican,District of Florida,"Nursing home executive; mother major Trump donor"
+Michelle Fiore,2025-04-15,Pardon,Corruption,"Wire fraud; misappropriation of charity funds",Pending,0,Republican,District of Nevada,"Former Nevada state lawmaker; used police memorial charity funds"
+Scott Jenkins,2025-05-26,Pardon,Corruption,"Federal bribery; conspiracy; honest services fraud",10 years,75000,Republican,District of Virginia,"Former Sheriff; accepted bribes for deputy badges"
+Todd Chrisley,2025-05-28,Pardon,Business,"Bank fraud; tax evasion; conspiracy to defraud banks",12 years,36000000,Republican,District of Georgia,"Reality TV star; daughter lobbied Trump at RNC"
+Julie Chrisley,2025-05-28,Pardon,Business,"Bank fraud; tax evasion; conspiracy to defraud banks",7 years,36000000,Republican,District of Georgia,"Reality TV star; co-conspirator with husband Todd"
+Larry Hoover,2025-05-28,Commutation,Drug,"Murder; conspiracy; extortion; money laundering",Life sentences,0,Unknown,District of Illinois,"Gangster Disciples co-founder; federal sentence commuted"
+Michael Grimm,2025-05-28,Pardon,Corruption,"Tax fraud; aiding in preparation of false tax return",8 months,0,Republican,District of New York,"Former GOP Congressman; 8th former GOP member pardoned"
+NBA YoungBoy,2025-05-28,Pardon,Drug,"Federal gun possession; aggravated assault with firearm",Pending,0,Unknown,District of Utah,"Rapper Kentrell Gaulden; multiple gun charges"
+John Rowland,2025-05-28,Pardon,Corruption,"Political corruption; honest services fraud",Multiple convictions,0,Republican,District of Connecticut,"Former Connecticut Governor; two separate convictions"
+Jeremy Hutchinson,2025-05-29,Pardon,Corruption,"Bribery; tax charges",Multiple counts,0,Republican,District of Arkansas,"Former Arkansas state senator"
+Jason Galanis,2025-05-30,Commutation,Business,"Multiple fraudulent schemes; securities fraud",189 months,0,Unknown,District of New York,"Hunter Biden associate; testified in impeachment inquiry"
+Anti-Abortion Activists,2025-01-22,Pardon,Anti-Abortion,"Blocking access to clinics; FACE Act violations",Various,0,Republican,Various,"24 activists pardoned day before March for Life"
