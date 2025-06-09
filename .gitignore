@@ -44,3 +44,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Patch files
+update_*.sh
+apply_all_patches.sh

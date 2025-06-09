@@ -1,6 +1,6 @@
 # Trump Second Presidency Pardons Database
 
-![Database Screenshot](https://img.shields.io/badge/Records-500%2B-brightgreen) ![Mobile Friendly](https://img.shields.io/badge/Mobile-Friendly-blue) ![Last Updated](https://img.shields.io/badge/Updated-June%202025-orange)
+![Database Screenshot](https://img.shields.io/badge/Records-500%2B-brightgreen) ![Mobile Friendly](https://img.shields.io/badge/Mobile-Friendly-blue) ![Last Updated](https://img.shields.io/badge/Updated-June%209%202025-orange)
 
 A comprehensive, searchable database of all executive clemency grants issued by President Donald Trump during both his presidencies. This project provides detailed datasets and an interactive web interface for analyzing presidential pardons and commutations across both terms.
 
@@ -357,7 +357,7 @@ If you find errors or have additional verified information:
 ---
 
 **Last Updated**: June 9, 2025  
-**Database Version**: 2.0  
+**Database Version**: 2.2  
 **Total Records**: 500+  
 **Next Update**: Weekly (or as clemency actions occur)
 
