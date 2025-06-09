@@ -1,0 +1,536 @@
+#!/bin/bash
+# fix_and_merge_github_pages.sh
+# Script to fix GitHub Pages issues and merge to main from current branch
+
+set -e  # Exit on any error
++ set -e
+
+# Color codes for output
+RED='\033[0;31m'
++ RED='\033[0;31m'
+GREEN='\033[0;32m'
++ GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
++ YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
++ BLUE='\033[0;34m'
+CYAN='\033[0;36m'
++ CYAN='\033[0;36m'
+NC='\033[0m' # No Color
++ NC='\033[0m'
+
+# Function to print colored output
+print_status() {
+    echo -e "${BLUE}[INFO]${NC} $1"
+}
+
+print_success() {
+    echo -e "${GREEN}[SUCCESS]${NC} $1"
+}
+
+print_warning() {
+    echo -e "${YELLOW}[WARNING]${NC} $1"
+}
+
+print_error() {
+    echo -e "${RED}[ERROR]${NC} $1"
+}
+
+print_fix() {
+    echo -e "${CYAN}[FIX]${NC} $1"
+}
+
+# Function to check environment
+check_environment() {
+    print_status "Checking environment..."
+    
+    if [[ ! -d ".git" ]]; then
+        print_error "Not in a git repository."
+        exit 1
+    fi
+    
+    if [[ ! -f "trump_pardons_database.html" ]]; then
+        print_error "trump_pardons_database.html not found."
+        exit 1
+    fi
+    
+    local current_branch=$(git branch --show-current)
+    print_status "Current branch: $current_branch"
+    
+    print_success "Environment check passed"
+}
+
+# Function to clean up current branch
+cleanup_current_branch() {
+    print_fix "Cleaning up current branch for GitHub Pages compatibility..."
+    
+    # Remove temporary files
+    rm -f update_main_branch.sh deploy_to_web_server.sh promote_readme_updates_to_main.sh update_readme.sh 2>/dev/null || true
+    rm -f dir_status.txt var_www_html_files 2>/dev/null || true
+    
+    # Remove any backup files
+    rm -f *.bak *.backup README.md.bak trump_pardons_database.html.bak 2>/dev/null || true
+    
+    # Remove patch files if they exist
+    rm -f add_first_term_patch*.sh 2>/dev/null || true
+    
+    # Remove problematic GitHub Actions workflow
+    if [[ -d ".github/workflows" ]]; then
+        print_status "Removing problematic GitHub Actions workflows..."
+        rm -f .github/workflows/*.yml 2>/dev/null || true
+        
+        # Remove empty directories
+        if [[ -z "$(ls -A .github/workflows 2>/dev/null)" ]]; then
+            rmdir .github/workflows
+        fi
+        if [[ -d ".github" && -z "$(ls -A .github 2>/dev/null)" ]]; then
+            rmdir .github
+        fi
+        print_success "Removed GitHub Actions workflows"
+    fi
+    
+    # Remove backup directories
+    rm -rf backup_* patches/ 2>/dev/null || true
+    
+    print_success "Cleanup completed"
+}
+
+# Function to create GitHub Pages compatible files
+create_github_pages_files() {
+    print_fix "Creating GitHub Pages compatible files..."
+    
+    # Create simple index.html
+    cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trump Pardons Database</title>
+    <meta http-equiv="refresh" content="0; url=trump_pardons_database.html">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: #2d3748;
+            border-radius: 10px;
+            padding: 30px;
+        }
+        a {
+            color: #3182ce;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Trump Pardons Database</h1>
+        <p>Redirecting...</p>
+        <p>If not redirected, <a href="trump_pardons_database.html">click here</a></p>
+    </div>
+    <script>
+        window.location.href = 'trump_pardons_database.html';
+    </script>
+</body>
+</html>
+EOF
+    
+    # Create .nojekyll to disable Jekyll
+    touch .nojekyll
+    
+    # Update .gitignore
+    cat > .gitignore << 'EOF'
+# Backup files
+*.bak
+*.backup
+backup_*/
+
+# Temporary files
+dir_status.txt
+var_www_html_files
+paste.txt
+.merge_stats
+
+# Development scripts
+add_first_term_patch*.sh
+deploy_*.sh
+merge_*.sh
+update_*.sh
+promote_*.sh
+*.sh.backup
+
+# Development directories
+patches/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if any)
+node_modules/
+
+# Jekyll files (we don't use Jekyll)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+EOF
+    
+    print_success "Created GitHub Pages files"
+}
+
+# Function to verify required files exist
+verify_required_files() {
+    print_status "Verifying required files..."
+    
+    local required_files=(
+        "trump_pardons_database.html"
+        "trump_pardons_csv.txt"
+        "trump_pardons_first_term_csv.txt"
+        "README.md"
+        "index.html"
+        ".nojekyll"
+    )
+    
+    for file in "${required_files[@]}"; do
+        if [[ ! -f "$file" ]]; then
+            print_error "Required file missing: $file"
+            exit 1
+        fi
+    done
+    
+    # Verify HTML file is not empty
+    if [[ ! -s "trump_pardons_database.html" ]]; then
+        print_error "trump_pardons_database.html is empty"
+        exit 1
+    fi
+    
+    # Verify CSV files are not empty
+    if [[ ! -s "trump_pardons_csv.txt" ]]; then
+        print_error "trump_pardons_csv.txt is empty"
+        exit 1
+    fi
+    
+    if [[ ! -s "trump_pardons_first_term_csv.txt" ]]; then
+        print_error "trump_pardons_first_term_csv.txt is empty"
+        exit 1
+    fi
+    
+    print_success "All required files verified"
+}
+
+# Function to commit current changes
+commit_github_pages_fix() {
+    print_status "Committing GitHub Pages fixes..."
+    
+    # Add all changes
+    git add .
+    git add .nojekyll
+    git add -u  # Remove deleted files
+    
+    local commit_message="fix: GitHub Pages deployment configuration and cleanup
+
+- Removed problematic GitHub Actions workflow causing deployment failures
+- Created index.html for root domain redirection
+- Added .nojekyll to disable Jekyll processing
+- Cleaned up temporary files and development scripts
+- Updated .gitignore for proper GitHub Pages deployment
+- Prepared for standard 'Deploy from a branch' GitHub Pages hosting
+
+Files ready for GitHub Pages deployment:
+- index.html (redirects to main database)
+- trump_pardons_database.html (main application)
+- trump_pardons_csv.txt (second-term data)
+- trump_pardons_first_term_csv.txt (first-term data)
+- README.md (updated documentation)
+- .nojekyll (disables Jekyll)
+
+Configuration required:
+- GitHub Pages Source: Deploy from a branch
+- Branch: main, Folder: / (root)"
+
+    git commit -m "$commit_message"
+    print_success "GitHub Pages fixes committed"
+}
+
+# Function to merge to main
+merge_to_main() {
+    print_status "Merging to main branch..."
+    
+    local current_branch=$(git branch --show-current)
+    
+    # Fetch latest changes
+    git fetch origin 2>/dev/null || print_warning "Could not fetch from origin"
+    
+    # Switch to main
+    git checkout main || {
+        print_error "Failed to switch to main branch"
+        exit 1
+    }
+    
+    # Pull latest main changes
+    git pull origin main 2>/dev/null || print_warning "Could not pull from origin"
+    
+    # Test merge for conflicts
+    print_status "Testing merge for conflicts..."
+    if git merge --no-commit --no-ff "$current_branch"; then
+        print_success "Merge test successful - no conflicts detected"
+        git merge --abort  # Reset the test merge
+    else
+        print_error "Merge conflicts detected!"
+        git merge --abort 2>/dev/null || true
+        print_error "Please resolve conflicts manually."
+        exit 1
+    fi
+    
+    # Perform actual merge
+    print_status "Performing merge: $current_branch -> main"
+    git merge --no-ff "$current_branch" -m "feat: Merge GitHub Pages fixes and dual-term database updates
+
+Merges comprehensive GitHub Pages deployment fixes and database enhancements.
+
+Key improvements:
+- Fixed GitHub Pages deployment by removing problematic workflows
+- Added proper redirection with index.html for root domain access
+- Disabled Jekyll processing with .nojekyll file
+- Integrated complete dual-term pardons database (2017-2021 & 2025+)
+- Enhanced documentation and user interface
+- Optimized for static hosting on GitHub Pages
+
+GitHub Pages Configuration:
+- Source: Deploy from a branch (main branch, / root folder)
+- Primary URL: https://codeddarkness.github.io/taco_pardons/
+- Direct URL: https://codeddarkness.github.io/taco_pardons/trump_pardons_database.html
+
+Database Features:
+- Second Term (2025+): Current presidency clemency actions
+- First Term (2017-2021): Historical presidency clemency actions
+- Demographics: January 6th defendant analysis
+- Advanced filtering and search capabilities
+- Mobile-responsive design"
+    
+    print_success "Merge completed successfully!"
+}
+
+# Function to push changes
+push_changes() {
+    if git remote get-url origin &>/dev/null; then
+        print_status "Pushing changes to origin..."
+        
+        # Push main branch
+        if git push origin main; then
+            print_success "Successfully pushed main branch to origin"
+        else
+            print_warning "Failed to push main branch (might be working offline)"
+        fi
+        
+        # Push the source branch for backup
+        local current_branch=$(git branch --show-current)
+        if [[ "$current_branch" == "main" ]]; then
+            # We're on main now, so find the branch we merged from
+            local source_branch=$(git log --oneline -1 --format="%s" | grep -o "dev/[^[:space:]]*" | head -1)
+            if [[ -n "$source_branch" ]]; then
+                git checkout "$source_branch" 2>/dev/null || true
+                git push origin "$source_branch" 2>/dev/null || true
+                git checkout main
+            fi
+        fi
+    else
+        print_warning "No remote origin configured - skipping push"
+    fi
+}
+
+# Function to provide summary
+deployment_summary() {
+    print_success "🎉 GitHub Pages fix and merge completed successfully!"
+    echo
+    echo "📊 Summary:"
+    echo "============"
+    echo "✅ Cleaned up temporary files and workflows"
+    echo "✅ Created GitHub Pages compatible configuration"
+    echo "✅ Merged changes to main branch"
+    echo "✅ Pushed changes to remote repository"
+    echo
+    echo "🌐 GitHub Pages Setup:"
+    echo "======================"
+    echo "🔧 REQUIRED: Update GitHub Pages settings manually:"
+    echo
+    echo "1. Go to your repository on GitHub.com"
+    echo "2. Click 'Settings' tab"
+    echo "3. Scroll to 'Pages' section"
+    echo "4. Under 'Source': Select 'Deploy from a branch'"
+    echo "5. Branch: Select 'main'"
+    echo "6. Folder: Select '/ (root)'"
+    echo "7. Click 'Save'"
+    echo
+    print_warning "DO NOT use 'GitHub Actions' as the source!"
+    echo
+    echo "🌟 After GitHub Pages deploys:"
+    echo "  🏠 Primary URL: https://codeddarkness.github.io/taco_pardons/"
+    echo "  📊 Direct URL: https://codeddarkness.github.io/taco_pardons/trump_pardons_database.html"
+    echo
+    echo "💾 Files deployed:"
+    echo "  ✅ index.html (redirects to database)"
+    echo "  ✅ trump_pardons_database.html (main application)"
+    echo "  ✅ trump_pardons_csv.txt (second-term data)"
+    echo "  ✅ trump_pardons_first_term_csv.txt (first-term data)"
+    echo "  ✅ .nojekyll (Jekyll disabled)"
+    echo "  ✅ README.md (updated documentation)"
+    echo
+    echo "🚀 Next steps:"
+    echo "  1. Update GitHub Pages settings (see above)"
+    echo "  2. Wait for deployment to complete (~1-2 minutes)"
+    echo "  3. Test the live site"
+    echo "  4. Optionally deploy to local web server"
+    echo
+    print_success "GitHub Pages should work correctly now! 🎉"
+}
+
+# Function to handle cleanup on error
+cleanup_on_error() {
+    print_error "Fix and merge failed. Repository state preserved."
+    print_status "You can manually resolve issues and try again."
+    exit 1
+}
+
+# Main execution function
+main() {
+    echo "🔧 GitHub Pages Fix and Merge to Main"
+    echo "====================================="
+    echo
+    
+    # Set up error handling
+    trap cleanup_on_error ERR
+    
+    # Run all steps
+    check_environment
+    cleanup_current_branch
+    create_github_pages_files
+    verify_required_files
+    commit_github_pages_fix
+    merge_to_main
+    push_changes
+    deployment_summary
+    
+    print_success "🎉 All operations completed successfully!"
+}
+
+# Check if script is being run directly (not sourced)
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi
++ [[ promote_to_main.sh == \p\r\o\m\o\t\e\_\t\o\_\m\a\i\n\.\s\h ]]
++ main
++ echo '🔧 GitHub Pages Fix and Merge to Main'
+🔧 GitHub Pages Fix and Merge to Main
++ echo =====================================
+=====================================
++ echo
+
++ trap cleanup_on_error ERR
++ check_environment
++ print_status 'Checking environment...'
++ echo -e '\033[0;34m[INFO]\033[0m Checking environment...'
+[0;34m[INFO][0m Checking environment...
++ [[ ! -d .git ]]
++ [[ ! -f trump_pardons_database.html ]]
+++ git branch --show-current
++ local current_branch=dev/readme_github_update
++ print_status 'Current branch: dev/readme_github_update'
++ echo -e '\033[0;34m[INFO]\033[0m Current branch: dev/readme_github_update'
+[0;34m[INFO][0m Current branch: dev/readme_github_update
++ print_success 'Environment check passed'
++ echo -e '\033[0;32m[SUCCESS]\033[0m Environment check passed'
+[0;32m[SUCCESS][0m Environment check passed
++ cleanup_current_branch
++ print_fix 'Cleaning up current branch for GitHub Pages compatibility...'
++ echo -e '\033[0;36m[FIX]\033[0m Cleaning up current branch for GitHub Pages compatibility...'
+[0;36m[FIX][0m Cleaning up current branch for GitHub Pages compatibility...
++ rm -f update_main_branch.sh deploy_to_web_server.sh promote_readme_updates_to_main.sh update_readme.sh
++ rm -f dir_status.txt var_www_html_files
++ rm -f README.md.bak trump_pardons_database.html.bak README.md.backup README.md.bak trump_pardons_database.html.bak
++ rm -f 'add_first_term_patch*.sh'
++ [[ -d .github/workflows ]]
++ print_status 'Removing problematic GitHub Actions workflows...'
++ echo -e '\033[0;34m[INFO]\033[0m Removing problematic GitHub Actions workflows...'
+[0;34m[INFO][0m Removing problematic GitHub Actions workflows...
++ rm -f .github/workflows/deploy.yml
+++ ls -A .github/workflows
++ [[ -z '' ]]
++ rmdir .github/workflows
++ [[ -d .github ]]
+++ ls -A .github
++ [[ -z '' ]]
++ rmdir .github
++ print_success 'Removed GitHub Actions workflows'
++ echo -e '\033[0;32m[SUCCESS]\033[0m Removed GitHub Actions workflows'
+[0;32m[SUCCESS][0m Removed GitHub Actions workflows
++ rm -rf 'backup_*' patches/
++ print_success 'Cleanup completed'
++ echo -e '\033[0;32m[SUCCESS]\033[0m Cleanup completed'
+[0;32m[SUCCESS][0m Cleanup completed
++ create_github_pages_files
++ print_fix 'Creating GitHub Pages compatible files...'
++ echo -e '\033[0;36m[FIX]\033[0m Creating GitHub Pages compatible files...'
+[0;36m[FIX][0m Creating GitHub Pages compatible files...
++ cat
++ touch .nojekyll
++ cat
++ print_success 'Created GitHub Pages files'
++ echo -e '\033[0;32m[SUCCESS]\033[0m Created GitHub Pages files'
+[0;32m[SUCCESS][0m Created GitHub Pages files
++ verify_required_files
++ print_status 'Verifying required files...'
++ echo -e '\033[0;34m[INFO]\033[0m Verifying required files...'
+[0;34m[INFO][0m Verifying required files...
++ required_files=('trump_pardons_database.html' 'trump_pardons_csv.txt' 'trump_pardons_first_term_csv.txt' 'README.md' 'index.html' '.nojekyll')
++ local required_files
++ for file in "${required_files[@]}"
++ [[ ! -f trump_pardons_database.html ]]
++ for file in "${required_files[@]}"
++ [[ ! -f trump_pardons_csv.txt ]]
++ for file in "${required_files[@]}"
++ [[ ! -f trump_pardons_first_term_csv.txt ]]
++ for file in "${required_files[@]}"
++ [[ ! -f README.md ]]
++ for file in "${required_files[@]}"
++ [[ ! -f index.html ]]
++ for file in "${required_files[@]}"
++ [[ ! -f .nojekyll ]]
++ [[ ! -s trump_pardons_database.html ]]
++ [[ ! -s trump_pardons_csv.txt ]]
++ [[ ! -s trump_pardons_first_term_csv.txt ]]
++ print_success 'All required files verified'
++ echo -e '\033[0;32m[SUCCESS]\033[0m All required files verified'
+[0;32m[SUCCESS][0m All required files verified
++ commit_github_pages_fix
++ print_status 'Committing GitHub Pages fixes...'
++ echo -e '\033[0;34m[INFO]\033[0m Committing GitHub Pages fixes...'
+[0;34m[INFO][0m Committing GitHub Pages fixes...
++ git add .
++ git add .nojekyll
++ git add -u

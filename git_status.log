@@ -1,0 +1,17 @@
+On branch dev/readme_github_update
+Your branch is up to date with 'origin/dev/readme_github_update'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    update_main_branch.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy_to_web_server.sh
+	dir_status.txt
+	promote_readme_updates_to_main.sh
+	update_readme.sh
+	var_www_html_files
+
+no changes added to commit (use "git add" and/or "git commit -a")
