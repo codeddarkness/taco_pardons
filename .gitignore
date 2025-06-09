@@ -1,0 +1,41 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/var/log/
+
+# Temporary files
+*.tmp
+/tmp/
+temp/
+
+# Backup files
+backups/
+*.backup
+*~
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Server specific
+.htaccess
+error_log
+access_log
+
+# Personal/sensitive files
+config.php
+.env
+
+# Large files that shouldn't be in git
+*.zip
+*.tar.gz
+*.iso
+
+# Cache
+cache/
+*.cache
