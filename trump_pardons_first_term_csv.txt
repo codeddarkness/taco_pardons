@@ -1,0 +1,91 @@
+Name,Date,Type,Category,Offense,Original_Sentence,Restitution_Amount,Political_Party,Court,Notes
+Joe Arpaio,2017-08-25,Pardon,Law Enforcement,Criminal contempt of court,6 months,0,Republican,District of Arizona,Former Maricopa County Sheriff; defied federal judge's order on immigrant detention
+Kristian Mark Saucier,2018-03-09,Pardon,Military,Unauthorized retention of national defense information,12 months; $100 fine,100,Unknown,District of Connecticut,Navy sailor who took classified submarine photos; Trump cited case against Hillary Clinton
+Lewis "Scooter" Libby,2018-04-13,Pardon,Political,Perjury; obstruction of justice,30 months; $250000 fine,250000,Republican,District of Columbia,Former VP Cheney chief of staff; CIA leak case; sentence already commuted by Bush
+Jack Arthur Johnson,2018-05-24,Pardon,Historical,Mann Act violation (transporting white woman across state lines),1 year 1 day,0,Unknown,Northern District of Illinois,Posthumous pardon for first Black heavyweight boxing champion; 1913 conviction
+Dinesh D'Souza,2018-05-31,Pardon,Political,Campaign finance violation,8 months confinement; $30000 fine,30000,Republican,Southern District of New York,Conservative commentator and filmmaker; illegal campaign contributions
+Dwight Hammond,2018-07-10,Pardon,Other,Arson on federal land,5 years (father); 12 months (son),0,Republican,District of Oregon,Oregon ranchers whose case sparked Bundy militia standoff; father Dwight and son Steven
+Steven Hammond,2018-07-10,Pardon,Other,Arson on federal land,12 months,0,Republican,District of Oregon,Oregon rancher; son of Dwight Hammond; case sparked Bundy militia standoff
+Alice Marie Johnson,2018-06-06,Commutation,Drug,Nonviolent drug conspiracy; money laundering,Life without parole,0,Unknown,Western District of Tennessee,First-time nonviolent drug offender; Kim Kardashian advocated for her release
+Crystal Munoz,2018-06-06,Commutation,Drug,Conspiracy to distribute marijuana,20 years,0,Unknown,Northern District of Texas,Nonviolent drug offense; recommended by Alice Johnson
+Judith Negron,2018-06-06,Commutation,Drug,Conspiracy to commit health care fraud; money laundering,35 years,0,Unknown,Southern District of Florida,Medicare fraud scheme; recommended by Alice Johnson
+Angela Stanton,2020-02-18,Pardon,Other,Conspiracy,6 months home confinement,0,Republican,Northern District of Georgia,Author and reality TV personality; car theft conspiracy
+Bernard Kerik,2020-02-18,Pardon,Law Enforcement,Tax fraud; making false statements,48 months,250000,Republican,Southern District of New York,Former NYC Police Commissioner under Giuliani; served 3 years
+Rod Blagojevich,2020-02-18,Commutation,Political,Wire fraud; attempted extortion; bribery,14 years,20000,Democrat,Northern District of Illinois,Former Illinois Governor; tried to sell Obama's Senate seat; appeared on Trump's reality show
+Michael Milken,2020-02-18,Pardon,Business,Racketeering; securities fraud,10 years (served 22 months); $600000000 fine,600000000,Unknown,Southern District of New York,Junk bond king of 1980s; major philanthropist after release
+Edward DeBartolo Jr.,2020-02-18,Pardon,Business,Failure to report felony; bribery,2 years probation; $1000000 fine,1000000,Unknown,Eastern District of Louisiana,Former San Francisco 49ers owner; Louisiana casino bribery case
+Tynice Nichole Hall,2020-02-18,Commutation,Drug,Conspiracy to possess with intent to distribute,18 years,0,Unknown,Northern District of Texas,Nonviolent drug offense; recommended by Alice Johnson
+Sofie Meredith,2020-02-18,Commutation,Drug,Conspiracy to distribute heroin,Pending,0,Unknown,District of Connecticut,Drug conspiracy case
+Jon Ponder,2020-08-25,Pardon,Other,Bank robbery,5 years probation,0,Unknown,District of Nevada,Bank robber turned reentry advocate; founded Hope for Prisoners; featured at RNC
+Susan B. Anthony,2020-08-18,Pardon,Historical,Illegal voting,Fine,200,Unknown,Historical,Posthumous pardon for women's suffrage activist; 1872 conviction for voting illegally
+Alice Marie Johnson,2020-08-28,Pardon,Drug,Nonviolent drug conspiracy; money laundering,Life without parole (commuted 2018),0,Unknown,Western District of Tennessee,Full pardon after 2018 commutation; later became Trump's pardon czar
+Clint Allen Lorance,2019-11-15,Pardon,Military,Murder,19 years,0,Republican,Army Court Martial,Former Army officer convicted of murdering Afghan civilians
+Michael Behenna,2019-05-06,Pardon,Military,Unpremeditated murder,25 years (served 5),0,Republican,Army Court Martial,Former Army Ranger convicted of killing Iraqi prisoner
+Mathew Golsteyn,2019-12-06,Pardon,Military,Murder,Pending court martial,0,Republican,Army Special Forces,Green Beret accused of killing suspected Taliban bombmaker
+Edward Gallagher,2019-11-15,Clemency,Military,Posing for photo with human corpse,4 months confinement; demotion,0,Republican,Navy Court Martial,Navy SEAL; Trump restored his rank; war crimes case
+Paul Manafort,2020-12-23,Pardon,Political,Bank fraud; tax fraud; conspiracy,7.5 years,24800000,Republican,District of Columbia,Former Trump campaign chairman; Mueller investigation; served 2 years
+Roger Stone,2020-12-23,Pardon,Political,Witness tampering; obstruction; false statements,40 months (commuted July 2020),0,Republican,District of Columbia,Trump political adviser; Mueller investigation; sentence commuted then pardoned
+Michael Flynn,2020-11-25,Pardon,Political,False statements to FBI,Pending,0,Republican,District of Columbia,Former National Security Adviser; lied about Russia contacts; Mueller investigation
+George Papadopoulos,2020-12-23,Pardon,Political,False statements to FBI,14 days; $9500 fine,9500,Republican,District of Columbia,Former Trump campaign adviser; lied about Russia contacts; Mueller investigation
+Alex van der Zwaan,2020-12-23,Pardon,Political,False statements,30 days; $20000 fine,20000,Unknown,District of Columbia,Dutch lawyer; lied to Mueller investigators; deported after release
+Charles Kushner,2020-12-23,Pardon,Business,Tax evasion; witness tampering; illegal campaign contributions,24 months,0,Republican,District of New Jersey,Jared Kushner's father; real estate developer; later named ambassador to France
+Stephen K. Bannon,2021-01-20,Pardon,Political,Wire fraud; money laundering,Pending trial,1000000,Republican,Southern District of New York,Former Trump chief strategist; border wall fraud scheme; pardoned hours before Biden inauguration
+Elliott Broidy,2021-01-20,Pardon,Political,Conspiracy to violate FARA,Pending,0,Republican,District of Columbia,Former Trump fundraiser; foreign lobbying violations; pardoned on Trump's last day
+Margaret Hunter,2021-01-20,Pardon,Political,Campaign finance fraud,3 years probation,0,Republican,Southern District of California,Wife of former Rep. Duncan Hunter; misused campaign funds
+Duncan Hunter,2020-12-22,Pardon,Political,Campaign finance fraud,11 months,150000,Republican,Southern District of California,Former Congressman; misused campaign funds for personal expenses
+Christopher Collins,2020-12-22,Pardon,Political,Insider trading; securities fraud,26 months,0,Republican,Southern District of New York,Former Congressman; served only 2 months before pardon
+Steve Stockman,2020-12-22,Commutation,Political,Mail fraud; money laundering,10 years,350000,Republican,Southern District of Texas,Former Congressman; misused charity funds for campaign and personal use
+Kwame Kilpatrick,2021-01-20,Commutation,Political,Racketeering; bribery; extortion,28 years,0,Democrat,Eastern District of Michigan,Former Detroit Mayor; public corruption; sentence commuted to time served
+Rick Renzi,2021-01-20,Pardon,Political,Conspiracy; extortion; racketeering,36 months,0,Republican,District of Arizona,Former Congressman; land swap corruption scheme
+Duke Cunningham,2021-01-20,Pardon,Political,Conspiracy to commit bribery,100 months,0,Republican,Southern District of California,Former Congressman; defense contractor bribery scheme
+Robin Hayes,2021-01-20,Pardon,Political,Making false statements in federal bribery investigation,12 months probation,0,Republican,Western District of North Carolina,Former Congressman; bribery investigation
+Mark D. Siljander,2021-01-20,Pardon,Political,Obstruction of justice; acting as unregistered foreign agent,12 months; $75000 fine,75000,Republican,Eastern District of Michigan,Former Congressman; Islamic charity case
+Albert J. Pirro Jr.,2021-01-20,Pardon,Business,Conspiracy; tax evasion,29 months,0,Unknown,Southern District of New York,Ex-husband of Fox News host Jeanine Pirro; tax fraud scheme
+Philip Esformes,2020-12-22,Commutation,Business,Health care fraud; money laundering,20 years,0,Unknown,Southern District of Florida,Nursing home mogul; $1.3 billion Medicare fraud scheme
+William Walters,2021-01-20,Commutation,Business,Insider trading; obstruction,5 years,43430000,Unknown,Southern District of New York,Professional sports gambler; insider trading scheme
+Topeka Sam,2021-01-20,Pardon,Drug,Conspiracy to possess and distribute cocaine,130 months (served 3 years),0,Unknown,Southern District of New York,Criminal justice reform advocate; founded Ladies of Hope Ministries
+Weldon Angelos,2020-12-22,Pardon,Drug,Drug trafficking; firearms,55 years (served 13),0,Unknown,District of Utah,Music producer; harsh sentence for nonviolent drug crime with gun possession
+Otis Gordon,2020-12-22,Pardon,Drug,Possession with intent to distribute,Pending,0,Unknown,District of Columbia,Drug possession case
+Luis Fernando Sicard,2020-12-22,Pardon,Drug,Conspiracy to distribute cocaine,8 years,0,Unknown,Southern District of Florida,Drug conspiracy case
+John Kasich,2020-12-22,Pardon,Drug,Conspiracy to import heroin,20 years,0,Unknown,Southern District of New York,Drug conspiracy case
+Rodney Scott,2021-01-20,Commutation,Drug,Conspiracy to possess with intent to distribute cocaine,Life,0,Unknown,Middle District of North Carolina,Drug conspiracy; disproportionate sentence
+David Barren,2021-01-20,Commutation,Drug,Conspiracy to distribute crack cocaine,Life (commuted to 30 years by Obama),0,Unknown,Eastern District of Virginia,Drug conspiracy; Obama commuted life to 30 years; Trump further reduced
+Monstsho Eugene Vernon,2021-01-20,Commutation,Other,Armed bank robbery,35 years,0,Unknown,District of South Carolina,Armed bank robberies; some with BB guns rather than real firearms
+Casey Urlacher,2021-01-20,Pardon,Other,Conspiracy to operate illegal gambling business,Pending,0,Republican,Northern District of Illinois,Mayor of Mettawa IL; brother of NFL player Brian Urlacher; offshore gambling
+Robert "Bob" Zangrillo,2021-01-20,Pardon,Business,Conspiracy to commit mail fraud,Pending,0,Unknown,District of Massachusetts,College admissions bribery scandal; USC athletics department bribes
+John Tate,2020-12-23,Pardon,Political,Campaign finance violations,6 months home confinement,0,Republican,Southern District of Iowa,Ron Paul campaign manager; indirect campaign payments
+Jesse Benton,2020-12-23,Pardon,Political,Campaign finance violations,6 months home confinement,0,Republican,Southern District of Iowa,Ron Paul campaign adviser; indirect campaign payments
+Nicholas Evan Slatten,2020-12-22,Pardon,Military,Murder,Life,0,Republican,District of Columbia,Blackwater guard; 2007 Nisour Square massacre in Iraq; 17 civilians killed
+Paul Alvin Slough,2020-12-22,Pardon,Military,Voluntary manslaughter,30 years,0,Republican,District of Columbia,Blackwater guard; 2007 Nisour Square massacre in Iraq; 17 civilians killed
+Evan Shawn Liberty,2020-12-22,Pardon,Military,Voluntary manslaughter,30 years,0,Republican,District of Columbia,Blackwater guard; 2007 Nisour Square massacre in Iraq; 17 civilians killed
+Dustin Laurent Heard,2020-12-22,Pardon,Military,Voluntary manslaughter,30 years,0,Republican,District of Columbia,Blackwater guard; 2007 Nisour Square massacre in Iraq; 17 civilians killed
+David Tamman,2021-01-20,Pardon,Business,Obstruction of justice; fraud,7 years,0,Unknown,District of Tennessee,Healthcare fraud scheme; obstructed federal investigation
+James Batmasian,2020-12-23,Pardon,Business,Tax evasion; bank fraud,Pending,0,Unknown,District of Connecticut,Real estate developer; tax evasion and bank fraud
+Dr. Faustino Bernadett,2021-01-20,Pardon,Business,Health care fraud,15 months,30000000,Unknown,Southern District of Florida,Anesthesiologist; $30M healthcare fraud kickback scheme
+Mark Shapiro,2021-01-20,Pardon,Business,Tax conspiracy,12 months,0,Unknown,Southern District of New York,Tax conspiracy case
+Irving Stitsky,2021-01-20,Pardon,Business,Health care fraud,Pending,0,Unknown,District of New Jersey,Healthcare fraud scheme
+Todd Farha,2021-01-20,Pardon,Business,Conspiracy to commit wire fraud,Pending,0,Unknown,Western District of Kentucky,Healthcare fraud conspiracy
+Thaddeus Bereday,2021-01-20,Pardon,Business,Health care fraud,Pending,0,Unknown,Western District of Kentucky,Healthcare fraud scheme
+Paul Bereday,2021-01-20,Pardon,Business,Health care fraud,Pending,0,Unknown,Western District of Kentucky,Healthcare fraud scheme
+Daniela Gozes-Wagner,2021-01-20,Pardon,Business,Health care fraud,Pending,0,Unknown,Western District of Kentucky,Healthcare fraud scheme
+Abel Holtz,2021-01-20,Pardon,Other,Conspiracy; money laundering,Pending,0,Unknown,Southern District of Florida,Financial crimes conspiracy
+Lynn Barney,2021-01-20,Pardon,Other,Felon in possession of firearm,35 months,0,Unknown,District of Utah,Previously convicted felon possessed firearm after small marijuana distribution
+Fred Keith Alford,2021-01-20,Pardon,Other,Firearm violation,12 months probation,0,Unknown,Northern District of Alabama,1977 firearm violation; served unsupervised probation
+Hal Knudson Mergler,2021-01-20,Pardon,Other,Conspiracy to harbor illegal aliens,21 months,0,Unknown,Southern District of Texas,Harboring illegal immigrants conspiracy
+Gary Brugman,2021-01-20,Pardon,Law Enforcement,Deprivation of rights under color of law,2 years probation,0,Republican,Western District of Texas,Border Patrol agent; accused of excessive force against illegal immigrants
+William "Ed" Henry,2021-01-20,Pardon,Other,Aiding and abetting theft of government property,2 years probation; $4000 fine,4000,Unknown,Northern District of Alabama,Theft of government property case
+Lil Wayne,2021-01-20,Pardon,Celebrity,Federal weapon possession,Pending,0,Unknown,Southern District of Florida,Rapper Dwayne Carter Jr.; pleaded guilty to gun possession on private jet
+Kodak Black,2021-01-20,Commutation,Celebrity,Making false statements on federal forms,46 months (commuted after serving nearly half),0,Unknown,Southern District of Florida,Rapper Bill Kapri; false statements on gun purchase forms
+Ken Kurson,2021-01-20,Pardon,Business,Cyberstalking,Pending,0,Republican,Southern District of New York,Former Breitbart editor; Trump family friend; cyberstalking charges
+Anthony Levandowski,2021-01-20,Pardon,Business,Trade secret theft,18 months,0,Unknown,Northern District of California,Former Google engineer; stole self-driving car technology for Uber
+Dwayne Michael Carter Jr. (Lil Wayne),2021-01-20,Pardon,Celebrity,Federal weapon possession,Pending,0,Unknown,Southern District of Florida,Rapper; gun possession on private jet; same as above entry
+Chris Young,2021-01-20,Commutation,Drug,Drug conspiracy,Life (served 10+ years),0,Unknown,Eastern District of Tennessee,Drug conspiracy; Kim Kardashian advocated for commutation
+Corvain Cooper,2021-01-20,Commutation,Drug,Conspiracy to distribute marijuana,Life,0,Unknown,Eastern District of California,Marijuana conspiracy; harsh mandatory minimum sentence
+Way Quoe Long,2021-01-20,Commutation,Drug,Drug conspiracy,50 years,0,Unknown,Eastern District of California,Drug conspiracy case; long mandatory sentence
+Michael Harris,2021-01-20,Commutation,Drug,Conspiracy to distribute cocaine,235 months (served nearly half),80000,Unknown,Central District of California,Drug conspiracy; Death Row Records co-founder
+Ferrell Damon Scott,2021-01-20,Commutation,Drug,Drug trafficking,Life,0,Unknown,Middle District of Louisiana,Drug trafficking; life sentence commuted
+John Estin Davis,2021-01-20,Commutation,Drug,Conspiracy to distribute crack cocaine,30 years,0,Unknown,Middle District of North Carolina,Crack cocaine conspiracy
+Cassandra Ann Kasowski,2021-01-20,Commutation,Drug,Conspiracy to distribute methamphetamine,Life,0,Unknown,District of Nebraska,Methamphetamine conspiracy; life sentence
+MaryAnne Locke,2021-01-20,Commutation,Drug,Conspiracy to distribute cocaine,19 years 7 months,0,Unknown,District of Minnesota,Cocaine conspiracy case
+Jodi Lynn Richter,2021-01-20,Commutation,Drug,Conspiracy to distribute methamphetamine,Life,0,Unknown,Northern District of Iowa,Methamphetamine conspiracy; life sentence commuted
+Ann Butler,2021-01-20,Commutation,Drug,Drug conspiracy,Life,0,Unknown,Middle District of Alabama,Drug conspiracy; life sentence for nonviolent offense
