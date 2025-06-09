@@ -2,7 +2,7 @@
 
 ![Database Screenshot](https://img.shields.io/badge/Records-286%2B-brightgreen) ![Mobile Friendly](https://img.shields.io/badge/Mobile-Friendly-blue) ![Last Updated](https://img.shields.io/badge/Updated-June%202025-orange)
 
-A comprehensive, searchable database of all executive clemency grants issued by President Donald Trump during his second presidency (January 2025 - Present). This project provides both a detailed dataset and an interactive web interface for analyzing presidential pardons and commutations.
+A comprehensive, searchable database of all executive clemency grants issued by President Donald Trump during his both presidencies (Both Terms: 2017-2021 January 2025 - Present 2025-Present). This project provides both a detailed dataset and an interactive web interface for analyzing presidential pardons and commutations.
 
 ## 🚀 Live Demo
 
