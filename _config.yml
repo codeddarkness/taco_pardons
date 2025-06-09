@@ -2,7 +2,7 @@
 
 # Site settings
 title: "Trump Pardons Database"
-description: "Comprehensive database of presidential pardons and commutations across both Trump presidencies"
+description: "Comprehensive database of presidential pardons and commutations across both Trump presidencies with enhanced mobile interface and demographics analysis"
 url: "https://codeddarkness.github.io"
 baseurl: "/taco_pardons"
 
@@ -27,6 +27,7 @@ exclude:
   - add_first_term_patch*.sh
   - deploy_*.sh
   - merge_*.sh
+  - update_*.sh
   - dir_status.txt
   - paste.txt
 
@@ -40,3 +41,12 @@ defaults:
       path: ""
     values:
       layout: default
+
+# Performance settings
+sass:
+  style: compressed
+
+# SEO settings
+author: Raymond Scheel
+version: "2.2"
+last_updated: "2025-06-09"

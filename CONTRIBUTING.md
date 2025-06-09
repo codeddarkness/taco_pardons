@@ -50,6 +50,15 @@ python -m http.server 8000
 ```
 
 #### Code Style Guidelines
+
+#### Mobile Testing Requirements
+- Test mobile compatibility on multiple devices and browsers
+- Ensure touch targets meet accessibility standards (minimum 44px)
+- Verify performance on slower mobile connections
+- Test CSV parsing with edge cases (quotes, commas, special characters)
+- Verify mobile filter functionality
+- Confirm accessibility compliance
+- Validate performance with large datasets
 - Use semantic HTML5
 - Follow mobile-first responsive design
 - Maintain vanilla JavaScript (no dependencies)
@@ -115,9 +124,9 @@ See the [Screenshot Guide](#screenshot-capture-instructions) below for requireme
 - Be respectful and constructive in all interactions
 
 ### Response Times
-- Data corrections: Within 48 hours
+- Data corrections: Within 24 hours
 - Feature requests: Within 1 week
-- Bug reports: Within 24 hours (critical), 1 week (non-critical)
+- Bug reports: Within 12 hours (critical), 3 days (non-critical)
 
 ## Legal and Ethical Guidelines
 
