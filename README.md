@@ -49,17 +49,24 @@ This database tracks all presidential pardons and commutations issued during Tru
 ## 📱 Screenshots
 
 ### Desktop Interface
-![Desktop View](screenshots/desktop-filters.png)
+![Desktop View](screenshots/desktop-view.png)
+*Main interface with data table and statistics*
+
+![Desktop View with Filtering](screenshots/desktop-view2.png)
 *Advanced filtering and search interface*
+
+![Desktop Filtered View](screenshots/desktop-view-filter.png)
+*Filtered results with active filters*
 
 ### Mobile Interface
 <img src="screenshots/mobile-view.png" alt="Mobile View" width="300">
 
 *Fully responsive mobile design*
 
-### Demographics Dashboard
-![Demographics](screenshots/demographics-dashboard.png)
-*Interactive January 6th defendant demographics*
+### Mobile Filtering
+<img src="screenshots/mobile-filter.png" alt="Mobile Filter Interface" width="300">
+
+*Touch-friendly mobile filter interface*
 
 ## 🗃️ Database Schema
 
