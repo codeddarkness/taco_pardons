@@ -1,3 +1,103 @@
+#!/bin/bash
+
+# GitHub Repository Setup Script for Trump Pardons Database
+# Creates README, prepares files, and pushes to GitHub
+
+set -euo pipefail
+
+# Configuration
+PROJECT_DIR="/home/raymond/taco_pardons"
+WEB_DIR="/var/www/html"
+REPO_URL="git@github.com:codeddarkness/taco_pardons.git"
+README_FILE="README.md"
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+NC='\033[0m'
+
+print_status() {
+    echo -e "${GREEN}[INFO]${NC} $1"
+}
+
+print_warning() {
+    echo -e "${YELLOW}[WARNING]${NC} $1"
+}
+
+print_error() {
+    echo -e "${RED}[ERROR]${NC} $1"
+}
+
+# Check if git is installed
+check_git() {
+    if ! command -v git &> /dev/null; then
+        print_error "Git is not installed. Please install git first:"
+        echo "sudo apt update && sudo apt install git -y"
+        exit 1
+    fi
+    print_status "Git is installed"
+}
+
+# Create project directory and copy files
+create_project_directory() {
+    print_status "Creating project directory: $PROJECT_DIR"
+    
+    # Create project directory
+    mkdir -p "$PROJECT_DIR"
+    cd "$PROJECT_DIR"
+    
+    print_status "Copying files from web directory..."
+    
+    # Copy main project files
+    if [[ -f "$WEB_DIR/trump_pardons_csv.txt" ]]; then
+        cp "$WEB_DIR/trump_pardons_csv.txt" "$PROJECT_DIR/"
+        print_status "Copied trump_pardons_csv.txt"
+    else
+        print_error "trump_pardons_csv.txt not found in $WEB_DIR"
+        exit 1
+    fi
+    
+    # Copy HTML files (try different possible names)
+    if [[ -f "$WEB_DIR/trump_pardons_database.html" ]]; then
+        cp "$WEB_DIR/trump_pardons_database.html" "$PROJECT_DIR/"
+        print_status "Copied trump_pardons_database.html"
+    elif [[ -f "$WEB_DIR/mobile_trump_pardons.html" ]]; then
+        cp "$WEB_DIR/mobile_trump_pardons.html" "$PROJECT_DIR/trump_pardons_database.html"
+        print_status "Copied mobile_trump_pardons.html as trump_pardons_database.html"
+    else
+        print_warning "No HTML file found, will create placeholder"
+    fi
+    
+    # Copy update scripts if they exist
+    for script in "pardon_update_script.sh" "simple_update.sh" "pardon_update_script_fixed.sh"; do
+        if [[ -f "$WEB_DIR/$script" ]]; then
+            cp "$WEB_DIR/$script" "$PROJECT_DIR/"
+            print_status "Copied $script"
+        fi
+    done
+    
+    # Set proper ownership
+    chown -R raymond:raymond "$PROJECT_DIR"
+    print_status "Set ownership to raymond:raymond"
+}
+
+# Check if source files exist
+check_source_files() {
+    if [[ ! -f "$WEB_DIR/trump_pardons_csv.txt" ]]; then
+        print_error "Source CSV file not found: $WEB_DIR/trump_pardons_csv.txt"
+        exit 1
+    fi
+    
+    print_status "Source files verified in $WEB_DIR"
+}
+
+# Create comprehensive README.md
+create_readme() {
+    print_status "Creating comprehensive README.md"
+    
+    cat > "$PROJECT_DIR/$README_FILE" << 'EOF'
 # Trump Second Presidency Pardons Database
 
 ![Database Screenshot](https://img.shields.io/badge/Records-286%2B-brightgreen) ![Mobile Friendly](https://img.shields.io/badge/Mobile-Friendly-blue) ![Last Updated](https://img.shields.io/badge/Updated-June%202025-orange)
@@ -6,7 +106,7 @@ A comprehensive, searchable database of all executive clemency grants issued by 
 
 ## 🚀 Live Demo
 
-**[View Live Database →](https://codeddarkness.github.io/taco_pardons/trump_pardons_database.html)**
+**[View Live Database →](https://your-domain.com/trump_pardons_database.html)**
 
 ![Trump Pardons Database Screenshot](screenshots/desktop-view.png)
 
@@ -23,7 +123,7 @@ This database tracks all presidential pardons and commutations issued during Tru
 - **White-collar criminals** and corruption cases
 
 ### Key Statistics
-- **Total Recipients**: 285 individual records (1,500+ including mass Jan 6 pardons)
+- **Total Recipients**: 286+ individual records (1,500+ including mass Jan 6 pardons)
 - **Categories**: January 6, Political, Business, Corruption, Drug-related, Anti-Abortion
 - **Restitution Waived**: $200+ million in financial penalties forgiven
 - **Geographic Scope**: Cases from all federal districts
@@ -299,8 +399,6 @@ This database contains factual information about presidential clemency actions c
 ## 📞 Contact & Support
 
 ### Project Maintainer
-- **Author**: Raymond Scheel
-- **Email**: ray.scheel@gmail.com
 - **GitHub**: [@codeddarkness](https://github.com/codeddarkness)
 - **Issues**: [GitHub Issues](https://github.com/codeddarkness/taco_pardons/issues)
 
@@ -338,9 +436,252 @@ If you find errors or have additional verified information:
 
 **Last Updated**: June 9, 2025  
 **Database Version**: 2.1  
-**Total Records**: 285  
+**Total Records**: 286+  
 **Next Update**: Weekly (or as clemency actions occur)
 
 ---
 
 *This project demonstrates the power of public data transparency and the importance of tracking executive clemency actions. By making this information accessible and searchable, we contribute to government accountability and informed civic engagement.*
+EOF
+
+    print_status "README.md created successfully"
+}
+
+# Create .gitignore file
+create_gitignore() {
+    print_status "Creating .gitignore file"
+    
+    cat > "$PROJECT_DIR/.gitignore" << 'EOF'
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/var/log/
+
+# Temporary files
+*.tmp
+/tmp/
+temp/
+
+# Backup files
+backups/
+*.backup
+*~
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Server specific
+.htaccess
+error_log
+access_log
+
+# Personal/sensitive files
+config.php
+.env
+
+# Large files that shouldn't be in git
+*.zip
+*.tar.gz
+*.iso
+
+# Cache
+cache/
+*.cache
+EOF
+
+    print_status ".gitignore created"
+}
+
+# Create project screenshots directory structure
+create_project_structure() {
+    print_status "Creating project structure"
+    
+    mkdir -p "$PROJECT_DIR/screenshots"
+    mkdir -p "$PROJECT_DIR/docs"
+    
+    # Create placeholder for screenshots
+    cat > "$PROJECT_DIR/screenshots/README.md" << 'EOF'
+# Screenshots
+
+This directory contains screenshots demonstrating the Trump Pardons Database interface.
+
+## Required Screenshots:
+- `desktop-view.png` - Main database interface on desktop
+- `mobile-view.png` - Mobile responsive design
+- `desktop-filters.png` - Advanced filtering interface
+- `demographics-dashboard.png` - January 6th demographics page
+
+To update screenshots:
+1. Navigate to the live website
+2. Take high-quality screenshots (1920x1080 for desktop, 375x812 for mobile)
+3. Replace the placeholder files
+4. Commit and push to update the README display
+EOF
+
+    print_status "Project structure created"
+}
+
+# Create LICENSE file
+create_license() {
+    print_status "Creating MIT LICENSE file"
+    
+    cat > "$PROJECT_DIR/LICENSE" << 'EOF'
+MIT License
+
+Copyright (c) 2025 Trump Pardons Database Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+EOF
+
+    print_status "LICENSE file created"
+}
+
+# Initialize git repository and push to GitHub
+setup_git_repository() {
+    print_status "Setting up Git repository"
+    
+    cd "$PROJECT_DIR"
+    
+    # Initialize git if not already done
+    if [[ ! -d ".git" ]]; then
+        git init
+        print_status "Git repository initialized"
+    fi
+    
+    # Configure git user if not set
+    if [[ -z "$(git config user.name)" ]]; then
+        print_warning "Git user not configured. Please set your git credentials:"
+        read -p "Enter your Git username: " GIT_USERNAME
+        read -p "Enter your Git email: " GIT_EMAIL
+        git config user.name "$GIT_USERNAME"
+        git config user.email "$GIT_EMAIL"
+        print_status "Git credentials configured"
+    fi
+    
+    # Add files to git
+    print_status "Adding files to git repository"
+    git add README.md
+    git add LICENSE
+    git add .gitignore
+    git add screenshots/
+    git add trump_pardons_csv.txt
+    
+    # Add HTML file (whichever one exists)
+    if [[ -f "trump_pardons_database.html" ]]; then
+        git add trump_pardons_database.html
+    fi
+    
+    # Add update scripts if they exist
+    for script in "pardon_update_script.sh" "simple_update.sh" "pardon_update_script_fixed.sh"; do
+        if [[ -f "$script" ]]; then
+            git add "$script"
+            print_status "Added $script to git"
+        fi
+    done
+    
+    # Create initial commit
+    git commit -m "Initial commit: Trump Pardons Database
+
+- Comprehensive pardon database with 286+ records
+- Mobile-responsive web interface
+- January 6th demographics analysis
+- Advanced search and filtering
+- Data from official sources and Seton Hall research
+- Automated update scripts included"
+    
+    print_status "Initial commit created"
+    
+    # Add remote and push
+    print_status "Adding remote repository and pushing to GitHub"
+    
+    # Remove existing remote if it exists
+    git remote remove origin 2>/dev/null || true
+    
+    # Add new remote
+    git remote add origin "$REPO_URL"
+    
+    # Create main branch and push
+    git branch -M main
+    git push -u origin main
+    
+    print_status "Repository pushed to GitHub successfully!"
+}
+
+# Main execution function
+main() {
+    echo -e "${BLUE}===========================================${NC}"
+    echo -e "${BLUE}  Trump Pardons Database - GitHub Setup  ${NC}"
+    echo -e "${BLUE}===========================================${NC}"
+    echo ""
+    
+    check_git
+    check_source_files
+    
+    print_status "Creating project directory and copying files..."
+    create_project_directory
+    
+    print_status "Setting up project files..."
+    create_readme
+    create_gitignore
+    create_license
+    create_project_structure
+    
+    print_status "Initializing Git repository..."
+    setup_git_repository
+    
+    echo ""
+    echo -e "${GREEN}[SUCCESS]${NC} Repository setup completed!"
+    echo ""
+    echo -e "${BLUE}Repository URL:${NC} https://github.com/codeddarkness/taco_pardons"
+    echo -e "${BLUE}Project directory:${NC} $PROJECT_DIR"
+    echo -e "${BLUE}Source files copied from:${NC} $WEB_DIR"
+    echo ""
+    echo -e "${YELLOW}Next steps:${NC}"
+    echo "1. Add screenshots to $PROJECT_DIR/screenshots/ directory"
+    echo "2. Update README.md with your live website URL" 
+    echo "3. Consider adding GitHub Pages for hosting"
+    echo "4. Update web server files when making changes"
+    echo ""
+    echo -e "${GREEN}Project is now ready for collaboration!${NC}"
+}
+
+function skip_this(){
+# Check if script is run with proper permissions
+if [[ $EUID -ne 0 ]]; then
+    print_error "Please run this script with sudo to access /var/www/html and set proper ownership"
+    echo "Usage: sudo bash github_setup.sh"
+    exit 1
+fi
+
+# Check if source files exist
+if [[ ! -f "/var/www/html/trump_pardons_csv.txt" ]]; then
+    print_error "Source files not found in /var/www/html/"
+    print_error "Please ensure trump_pardons_csv.txt exists in /var/www/html/"
+    exit 1
+fi
+
+# Run main function
+main "$@"
+}
