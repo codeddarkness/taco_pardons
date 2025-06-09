@@ -1,0 +1,42 @@
+# GitHub Pages Configuration for Trump Pardons Database
+
+# Site settings
+title: "Trump Pardons Database"
+description: "Comprehensive database of presidential pardons and commutations across both Trump presidencies"
+url: "https://codeddarkness.github.io"
+baseurl: "/taco_pardons"
+
+# GitHub Pages settings
+plugins:
+  - jekyll-redirect-from
+
+# Include files that GitHub Pages should serve
+include:
+  - trump_pardons_database.html
+  - trump_pardons_csv.txt
+  - trump_pardons_first_term_csv.txt
+  - screenshots/
+  - index.html
+
+# Exclude development files
+exclude:
+  - patches/
+  - backup_*/
+  - "*.bak"
+  - "*.backup"
+  - add_first_term_patch*.sh
+  - deploy_*.sh
+  - merge_*.sh
+  - dir_status.txt
+  - paste.txt
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Default layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
