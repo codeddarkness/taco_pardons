@@ -1,19 +1,20 @@
 # Trump Second Presidency Pardons Database
 
-![Database Screenshot](https://img.shields.io/badge/Records-286%2B-brightgreen) ![Mobile Friendly](https://img.shields.io/badge/Mobile-Friendly-blue) ![Last Updated](https://img.shields.io/badge/Updated-June%202025-orange)
+![Database Screenshot](https://img.shields.io/badge/Records-500%2B-brightgreen) ![Mobile Friendly](https://img.shields.io/badge/Mobile-Friendly-blue) ![Last Updated](https://img.shields.io/badge/Updated-June%202025-orange)
 
-A comprehensive, searchable database of all executive clemency grants issued by President Donald Trump during his both presidencies (Both Terms: 2017-2021 January 2025 - Present 2025-Present). This project provides both a detailed dataset and an interactive web interface for analyzing presidential pardons and commutations.
+A comprehensive, searchable database of all executive clemency grants issued by President Donald Trump during both his presidencies. This project provides detailed datasets and an interactive web interface for analyzing presidential pardons and commutations across both terms.
 
 ## 🚀 Live Demo
 
-**[View Live Database →](https://codeddarkness.github.io/taco_pardons/trump_pardons_database.html)**
+**[📊 View Live Database →](https://codeddarkness.github.io/taco_pardons/)**
 
 ![Trump Pardons Database Screenshot](screenshots/desktop-view.png)
 
 ## 📊 Project Overview
 
-This database tracks all presidential pardons and commutations issued during Trump's second term, including:
+This database tracks all presidential pardons and commutations issued during both Trump presidencies:
 
+### **Second Term (2025 - Present)**
 - **1,500+ January 6th defendants** (mass clemency on Day 1)
 - **High-profile political figures** (Rod Blagojevich, Scott Jenkins, Brian Kelsey)
 - **Celebrity cases** (Todd & Julie Chrisley, NBA YoungBoy)
@@ -22,21 +23,30 @@ This database tracks all presidential pardons and commutations issued during Tru
 - **Anti-abortion activists** (24 clinic blockade participants)
 - **White-collar criminals** and corruption cases
 
+### **First Term (2017-2021)**
+- **Political pardons** (Michael Flynn, Paul Manafort, Roger Stone)
+- **Military cases** (Eddie Gallagher, Clint Lorance, Blackwater guards)
+- **Celebrity pardons** (Lil Wayne, Kodak Black)
+- **Business fraud** (Michael Milken, Conrad Black)
+- **Historical pardons** (Jack Johnson, Susan B. Anthony)
+- **Drug offense commutations** (Alice Johnson advocacy cases)
+
 ### Key Statistics
-- **Total Recipients**: 285 individual records (1,500+ including mass Jan 6 pardons)
-- **Categories**: January 6, Political, Business, Corruption, Drug-related, Anti-Abortion
+- **Total Recipients**: 500+ individual records across both terms
+- **Categories**: January 6, Political, Business, Corruption, Drug-related, Anti-Abortion, Military, Celebrity
 - **Restitution Waived**: $200+ million in financial penalties forgiven
 - **Geographic Scope**: Cases from all federal districts
 
 ## 🎯 Features
 
 ### Web Interface
-- **📱 Mobile-responsive design** - Works on all devices
+- **📱 Mobile-responsive design** - Works perfectly on all devices
 - **🔍 Advanced search & filtering** - By name, offense, category, date, amount
-- **📈 Real-time statistics** - Live counts and totals
+- **📈 Real-time statistics** - Live counts and totals for each presidency
 - **📊 Interactive demographics** - January 6th defendant analysis
 - **🎨 Dark theme** optimized for readability
 - **⚡ Fast loading** with client-side filtering
+- **🗂️ Three-tab navigation** - Second Term | First Term | Demographics
 
 ### Data Analysis
 - **Comprehensive demographics** of January 6th defendants
@@ -45,30 +55,33 @@ This database tracks all presidential pardons and commutations issued during Tru
 - **Financial hardship correlation** with violent behavior
 - **Political affiliation tracking**
 - **Conviction success rates** (99.4% for Jan 6 cases)
+- **Cross-presidency comparison** capabilities
 
 ## 📱 Screenshots
 
 ### Desktop Interface
 ![Desktop View](screenshots/desktop-view.png)
-*Main interface with data table and statistics*
+*Three-tab interface with comprehensive data tables*
 
 ![Desktop View with Filtering](screenshots/desktop-view2.png)
 *Advanced filtering and search interface*
 
 ![Desktop Filtered View](screenshots/desktop-view-filter.png)
-*Filtered results with active filters*
+*Filtered results with active search parameters*
 
 ### Mobile Interface
 <img src="screenshots/mobile-view.png" alt="Mobile View" width="300">
 
-*Fully responsive mobile design*
+*Fully responsive mobile design with touch-friendly interface*
 
 ### Mobile Filtering
 <img src="screenshots/mobile-filter.png" alt="Mobile Filter Interface" width="300">
 
-*Touch-friendly mobile filter interface*
+*Touch-optimized mobile filter controls*
 
 ## 🗃️ Database Schema
+
+Both CSV files follow the same schema for consistency:
 
 ```csv
 Name,Date,Type,Category,Offense,Original_Sentence,Restitution_Amount,Political_Party,Court,Notes
@@ -78,7 +91,7 @@ Name,Date,Type,Category,Offense,Original_Sentence,Restitution_Amount,Political_P
 - **Name**: Individual or group name
 - **Date**: Date clemency was granted (YYYY-MM-DD)
 - **Type**: "Pardon" (full forgiveness) or "Commutation" (sentence reduction)
-- **Category**: January 6, Political, Business, Corruption, Drug, Anti-Abortion, etc.
+- **Category**: January 6, Political, Business, Corruption, Drug, Anti-Abortion, Military, Celebrity, etc.
 - **Offense**: Criminal charges and convictions
 - **Original_Sentence**: Prison term before clemency
 - **Restitution_Amount**: Financial penalties waived (in dollars)
@@ -86,9 +99,9 @@ Name,Date,Type,Category,Offense,Original_Sentence,Restitution_Amount,Political_P
 - **Court**: Federal district court of conviction
 - **Notes**: Additional context and significance
 
-## 📋 Notable Cases
+## 📋 Notable Cases by Presidency
 
-### High-Profile Pardons
+### Second Term Highlights (2025+)
 
 #### **Ross Ulbricht** - *January 21, 2025*
 - **Offense**: Narcotics distribution, money laundering (Silk Road marketplace)
@@ -100,21 +113,26 @@ Name,Date,Type,Category,Offense,Original_Sentence,Restitution_Amount,Political_P
 - **Original Sentences**: 12 years (Todd), 7 years (Julie)
 - **Significance**: Reality TV stars, daughter lobbied at RNC
 
-#### **Enrique Tarrio** - *January 20, 2025*
-- **Offense**: Seditious conspiracy (Proud Boys leader)
-- **Original Sentence**: 22 years (commuted to time served)
-- **Significance**: Longest Jan 6 sentence commuted
-
-#### **Larry Hoover** - *May 28, 2025*
-- **Offense**: Murder, conspiracy (Gangster Disciples founder)
-- **Original Sentence**: 6 life sentences (federal commuted)
-- **Significance**: Still serving 200-year state sentence
-
-### January 6th Mass Clemency
-- **Date**: January 20, 2025 (Inauguration Day)
+#### **January 6th Mass Clemency** - *January 20, 2025*
+- **Date**: Inauguration Day
 - **Scope**: ~1,500 defendants pardoned or had sentences commuted
 - **Impact**: Ended largest domestic terrorism prosecution in US history
-- **Notable**: Included those who assaulted police officers
+
+### First Term Highlights (2017-2021)
+
+#### **Michael Flynn** - *November 25, 2020*
+- **Offense**: False statements to FBI
+- **Significance**: Former National Security Adviser, Mueller investigation
+
+#### **Paul Manafort** - *December 23, 2020*
+- **Offense**: Tax fraud, bank fraud, conspiracy
+- **Original Sentence**: 7.5 years
+- **Significance**: Former Trump campaign chairman
+
+#### **Alice Johnson** - *June 6, 2018 (Commutation) / August 28, 2020 (Pardon)*
+- **Offense**: Nonviolent drug conspiracy
+- **Original Sentence**: Life without parole
+- **Significance**: Kim Kardashian advocacy, became Trump's clemency adviser
 
 ## 📊 Demographics Analysis
 
@@ -126,7 +144,6 @@ Name,Date,Type,Category,Offense,Original_Sentence,Restitution_Amount,Political_P
 - 17.2% Blue collar workers (74)
 - 8.8% White collar workers (38)
 - 8.1% Unemployed (35)
-- 39.9% Unknown employment (286)
 
 #### **Geographic Distribution**
 - **Florida**: 11.5% (82 defendants)
@@ -137,67 +154,69 @@ Name,Date,Type,Category,Offense,Original_Sentence,Restitution_Amount,Political_P
 - **Total**: 47 states represented
 
 #### **Financial Hardships** (140 of 716)
-- 19.6% experienced some financial distress
-- 16.3% had judgments/liens (117)
-- 15.5% faced foreclosures/evictions (111)
-- 9.8% filed for bankruptcy (70)
-- **Correlation**: 42% of financially distressed engaged in violence
+- 19.6% experienced financial distress
+- 16.3% had judgments/liens
+- 15.5% faced foreclosures/evictions
+- 9.8% filed for bankruptcy
+- **Key Finding**: 42% of financially distressed engaged in violence
 
 #### **Demographics**
-- **Gender**: 81.3% male (625), 12.7% female (91)
-- **Race**: 92% white (659), 8% other (57)
-- **Criminal History**: 22.2% had prior convictions (159)
+- **Gender**: 81.3% male, 12.7% female
+- **Race**: 92% white, 8% other ethnicities
+- **Criminal History**: 22.2% had prior convictions
 - **Armed**: 25% came armed to Capitol
-- **Law Enforcement/Military**: 18.5% background (133 total)
-
-#### **Group Affiliations**
-- 35% traveled alone (251)
-- 20% traveled with family
-- 45% traveled with friends/organized groups
-- Major groups: Proud Boys, Oath Keepers, Three Percenters
+- **Law Enforcement/Military**: 18.5% background
 
 ## 🛠️ Technical Implementation
 
 ### Frontend Technologies
-- **HTML5** with semantic structure
-- **CSS3** with flexbox and grid layouts
-- **Vanilla JavaScript** for performance
-- **Responsive design** (mobile-first approach)
-- **Progressive enhancement**
+- **HTML5** with semantic structure and accessibility features
+- **CSS3** with modern flexbox/grid layouts and responsive design
+- **Vanilla JavaScript** for optimal performance
+- **Progressive enhancement** approach
+- **Mobile-first** responsive design philosophy
 
-### Data Processing
-- **CSV parsing** with quote handling
-- **Client-side filtering** for speed
+### Data Architecture
+- **Dual CSV system** for separate term data
+- **Client-side filtering** for instant search results
 - **Real-time statistics** calculation
 - **Error handling** and validation
+- **Performance optimization** for large datasets
 
 ### Performance Features
-- **Efficient DOM manipulation**
-- **Debounced search** to prevent lag
-- **Lazy loading** of large datasets
-- **Optimized for mobile** browsers
+- **Efficient DOM manipulation** with minimal reflows
+- **Debounced search** to prevent input lag
+- **Lazy data loading** for improved initial load time
+- **Optimized rendering** for mobile browsers
+- **Accessible navigation** with keyboard support
 
 ## 🚀 Installation & Setup
 
-### Quick Start
+### Quick Start for GitHub Pages
+The database is automatically deployed via GitHub Pages at:
+**https://codeddarkness.github.io/taco_pardons/**
+
+### Local Development
 ```bash
 # Clone the repository
 git clone https://github.com/codeddarkness/taco_pardons.git
 cd taco_pardons
 
-# Set up web server (Apache/Nginx)
-sudo cp trump_pardons_database.html /var/www/html/
-sudo cp trump_pardons_csv.txt /var/www/html/
-sudo chmod 644 /var/www/html/trump_pardons_csv.txt
+# Serve locally (any HTTP server)
+python -m http.server 8000
+# OR
+npx http-server
+# OR
+php -S localhost:8000
 
 # Access via browser
-# http://your-domain.com/trump_pardons_database.html
+# http://localhost:8000
 ```
 
 ### Requirements
-- **Web Server**: Apache, Nginx, or any HTTP server
+- **Web Server**: Any HTTP server (Apache, Nginx, Python, Node.js, etc.)
 - **Browser**: Modern browser with JavaScript enabled
-- **File Access**: CSV file must be accessible via HTTP
+- **Files**: HTML file and CSV files must be served via HTTP (not file://)
 
 ### Configuration
 No special configuration required. The application is entirely client-side and works with any web server capable of serving static files.
@@ -206,7 +225,7 @@ No special configuration required. The application is entirely client-side and w
 
 ### Primary Sources
 1. **Official Government Records**
-   - [Department of Justice Office of the Pardon Attorney](https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present)
+   - [Department of Justice Office of the Pardon Attorney](https://www.justice.gov/pardon)
    - [White House Presidential Actions](https://www.whitehouse.gov/presidential-actions/)
 
 2. **Legal Documentation**
@@ -224,19 +243,12 @@ No special configuration required. The application is entirely client-side and w
    - [Seton Hall University Center for Policy & Research](https://www.shu.edu/news/a-demographic-and-legal-profile-of-january-6-prosecutions.html)
    - *"The January 6 Insurrectionists: Who They Are and What They Did"*
    - Professor Mark Denbeaux and research team analysis
-   - Study period: First year after January 6, 2021
-   - Sample: 716 defendants from first wave of prosecutions
 
 ### Data Verification Process
 - **Cross-referencing** multiple sources for accuracy
 - **Court document validation** where available
 - **Timeline verification** against official announcements
 - **Regular updates** as new clemency actions occur
-
-### Limitations
-- Demographics reflect prosecuted defendants, not all January 6 attendees
-- Some financial and personal data unavailable for privacy
-- State vs. federal charge distinctions noted where applicable
 
 ## 📈 Update Process
 
@@ -247,10 +259,11 @@ No special configuration required. The application is entirely client-side and w
 
 ### Manual Updates
 ```bash
-# Use the provided update script
-sudo bash pardon_update_script.sh
+# Add new entries to appropriate CSV file
+# trump_pardons_csv.txt (Second Term)
+# trump_pardons_first_term_csv.txt (First Term)
 
-# Or manually add to CSV following the schema:
+# Follow schema:
 # Name,Date,Type,Category,Offense,Original_Sentence,Restitution_Amount,Political_Party,Court,Notes
 ```
 
@@ -262,7 +275,7 @@ sudo bash pardon_update_script.sh
 
 ## 🤝 Contributing
 
-We welcome contributions to improve the database and analysis. Please follow these guidelines:
+We welcome contributions to improve the database and analysis.
 
 ### Data Contributions
 1. **Verify sources** - Provide official documentation
@@ -344,10 +357,10 @@ If you find errors or have additional verified information:
 ---
 
 **Last Updated**: June 9, 2025  
-**Database Version**: 2.1  
-**Total Records**: 285  
+**Database Version**: 2.0  
+**Total Records**: 500+  
 **Next Update**: Weekly (or as clemency actions occur)
 
 ---
 
-*This project demonstrates the power of public data transparency and the importance of tracking executive clemency actions. By making this information accessible and searchable, we contribute to government accountability and informed civic engagement.*
+*This project demonstrates the power of public data transparency and the importance of tracking executive clemency actions across multiple presidencies. By making this information accessible and searchable, we contribute to government accountability and informed civic engagement.*
